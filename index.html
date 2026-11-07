@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="Anonymous supplementary video comparisons and predicted trajectories. Original paper results and additional experiments are identified separately.">
+  <title>PAVG | Anonymous Video Comparisons</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  <script src="vendor/lucide.min.js" defer></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to comparisons</a>
+  <header class="site-header">
+    <div class="heading-row">
+      <div class="brand"><strong>PAVG</strong><span>Video &amp; trajectory comparisons</span></div>
+      <span class="anonymous">Anonymous supplementary material</span>
+    </div>
+    <nav aria-label="Collections" id="nav">
+      <a href="#paper" data-tab="paper">Original paper <span>32 scenes</span></a>
+      <a href="#failures" data-tab="failures">Failure cases</a>
+      <a href="#physicsiq/physiq_0139" data-tab="physicsiq">Physics-IQ <span class="new-label">Added</span></a>
+      <a href="#protocol" data-tab="protocol">Protocol &amp; provenance</a>
+    </nav>
+  </header>
+  <div id="app" aria-live="polite"><p class="loading">Loading comparisons...</p></div>
+  <footer>
+    <span>Anonymous review material</span>
+    <span>No analytics scripts, visitor counters, or external media embeds.</span>
+    <a href="asset-manifest.json" download>Asset manifest</a>
+  </footer>
+  <dialog id="trajectory-dialog" aria-labelledby="trajectory-title">
+    <div class="dialog-head">
+      <div><span class="eyebrow" id="trajectory-origin"></span><h2 id="trajectory-title">Predicted point cloud</h2></div>
+      <button class="icon-button" id="close-trajectory" title="Close point cloud" aria-label="Close point cloud"><i data-lucide="x"></i></button>
+    </div>
+    <div class="trajectory-toolbar">
+      <label>Method <select id="trajectory-method"></select></label>
+      <span class="legend"><b class="gas-dot"></b>Gas <b class="solid-dot"></b>Solid</span>
+      <label class="point-size">Point size <input id="point-size" type="range" min="1" max="7" value="3" step=".5"></label>
+      <button id="reset-camera" class="icon-button" title="Reset camera" aria-label="Reset camera"><i data-lucide="rotate-ccw"></i></button>
+      <a class="icon-button" id="trajectory-download" download title="Download original numeric NPZ" aria-label="Download original numeric NPZ"><i data-lucide="download"></i></a>
+    </div>
+    <div id="point-view"><p id="point-status">Loading point cloud...</p></div>
+    <div class="trajectory-controls">
+      <button id="trajectory-play" class="icon-button" title="Play trajectory" aria-label="Play trajectory"><i data-lucide="play"></i></button>
+      <input id="trajectory-frame" type="range" min="0" max="24" value="0" step="1" aria-label="Trajectory keyframe">
+      <output id="trajectory-position">Initial / 24</output>
+    </div>
+    <p class="trajectory-note" id="trajectory-note"></p>
+  </dialog>
+</body>
+</html>

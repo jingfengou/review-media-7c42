@@ -1,0 +1,14 @@
+Physics-IQ reference images and videos
+Source: https://physics-iq.github.io/
+Repository: https://github.com/google-deepmind/physics-IQ-benchmark
+Copyright 2025 Google LLC.
+Non-software materials are provided under CC BY 4.0:
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+Reference clips on this site are trimmed to 0-2 seconds, resampled to common
+timestamps, and letterboxed. They are recorded benchmark material, not model
+outputs. No endorsement by the original dataset creators is implied.
+
+Three.js and Lucide are bundled locally under their MIT / ISC licenses.
+License files are available in vendor/three-LICENSE.txt and
+vendor/lucide-LICENSE.txt, respectively.

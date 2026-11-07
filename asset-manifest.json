@@ -1,0 +1,3398 @@
+{
+  "paper_scenes": 32,
+  "paper_videos": 352,
+  "paper_trajectories": 64,
+  "physicsiq_events": 1,
+  "physicsiq_views": 3,
+  "physicsiq_generated_videos": 9,
+  "assets": [
+    {
+      "source_sha256": "8a28ddcb6c08a160261826da2a68acdaa967198f1bbf3c6724492a421f85f71a",
+      "path": "media/paper/sandbag_drop/input.png",
+      "sha256": "8a28ddcb6c08a160261826da2a68acdaa967198f1bbf3c6724492a421f85f71a",
+      "bytes": 474609,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "2410a2c28274cd9d0c70aa54c965804fdd4e72e47bb66aed23b3f471e4ea3995",
+      "path": "media/paper/sandbag_drop/mpact.mp4",
+      "sha256": "b0ee3d610f5f294c1df24d10097c3313e8fd2b102c6fd46588fb976678cfcc68",
+      "bytes": 193334,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "bc1a01474aa5ce224e60fe1b37c92c379e1e739ba8d9ebed948d3059d75fcc9b",
+      "path": "media/paper/sandbag_drop/physctrl_stage1.mp4",
+      "sha256": "85ad4334db073100ff57fcf7ea27b2fe8d9177e593ed4deefad8d4ae9d3865ec",
+      "bytes": 241082,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6bf5d955440bc7ea5258f62f9af601639769f94d46f32c3c00dc7689029b10ef",
+      "path": "media/paper/sandbag_drop/hunyuan15.mp4",
+      "sha256": "a542dc19407de824d8fcbfab61122b17f036fe2f51782fd83739a93df5df6b3b",
+      "bytes": 708895,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "13fd0d9815f84ca42394251aaa9b046179ff04f6d50afeb4d298e0b8c50f0b07",
+      "path": "media/paper/sandbag_drop/wan22.mp4",
+      "sha256": "6b68e0b0f0782e40ef83d12790dbad95121be19401a5304e3d80e54201c5ccc5",
+      "bytes": 1769080,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "909bf54ff13d70af9dad3d8297a18c5c5816971d16c56918d97c096082d0dff4",
+      "path": "media/paper/sandbag_drop/cogvideox15.mp4",
+      "sha256": "341ca28b6c51655019c8021bc0f1444aa749f01f7796d3dd8f083b9e48b6205b",
+      "bytes": 896680,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8fc108cffa99557e72e0681b831efdbb893f51042bbf4a1fa50e05d0a18b1d7f",
+      "path": "media/paper/sandbag_drop/draganything.mp4",
+      "sha256": "338cdcb9b0dba8300e9929a61aad5fb9077634814c987bec273c222cd233e9fc",
+      "bytes": 1181184,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "66d006e5f8f2a4edc096aca91a6ad637fdb8ac9c0e7186c29843ec20788f9014",
+      "path": "media/paper/sandbag_drop/objctrl.mp4",
+      "sha256": "54f6d5b1bff6602f2f670a91fcf6b467cdfc70ac59c4e0d8be38cc11335ba179",
+      "bytes": 683312,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b1db719110b9e222e5fb9782a39467da6e3e10b05e9661d018134b3d171df049",
+      "path": "media/paper/sandbag_drop/flashmotion.mp4",
+      "sha256": "b256009d0c0e49f8c6c3cdc490174a52703bdd31ae70d38afcce6e35e9f49867",
+      "bytes": 1938140,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7ff00d97f06cf6aca9029d91aa116903ac3c1c61ebdfac197c7ad07952b74ea9",
+      "path": "media/paper/sandbag_drop/wan_move.mp4",
+      "sha256": "8789d62e1b2b13832dc0c23b7f692c75eea67071693ff29d964a7e59156e9c07",
+      "bytes": 3687721,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2b6aaea23401ac807e3240cb9b36f06354f07d0276ab2b553539a2fcce538096",
+      "path": "media/paper/sandbag_drop/force_prompting.mp4",
+      "sha256": "0ed2f19c27dcda58a651cbfdf94863abb8643bbf814f7dcc8d7be7f42f9d15f2",
+      "bytes": 422781,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9ac233c063dd26f21148a01fd8f03631ae584c16c7584c540770e72af2328bca",
+      "path": "media/paper/sandbag_drop/streamforce.mp4",
+      "sha256": "e93f721f4b8275c2d90d399683b58359ea019e7a50b27f7ab22c1381a9d46462",
+      "bytes": 1234118,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b909f97111619a473cac5535f1f4cb43394ee4216f45d51b1163100f1ab6ecc6",
+      "path": "media/paper/sandbag_drop/mpact_trajectory.npz",
+      "sha256": "b909f97111619a473cac5535f1f4cb43394ee4216f45d51b1163100f1ab6ecc6",
+      "bytes": 1150111,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "18a9133b65482aa954a862a1ce9df47856fd3481a0eb30bf2015631e47b3b4cc",
+      "path": "media/paper/sandbag_drop/physctrl_stage1_trajectory.npz",
+      "sha256": "18a9133b65482aa954a862a1ce9df47856fd3481a0eb30bf2015631e47b3b4cc",
+      "bytes": 538940,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "974f950bde1d5c87b78c2b4df6de3c958eb2606ce88bc7e39c3e1eb1233a16a5",
+      "path": "media/paper/scene03a/input.png",
+      "sha256": "974f950bde1d5c87b78c2b4df6de3c958eb2606ce88bc7e39c3e1eb1233a16a5",
+      "bytes": 481295,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "c6ce47fffbb0af2d3c2ee18be3ef61910847d5ce8680bf4e92d1566c49437096",
+      "path": "media/paper/scene03a/mpact.mp4",
+      "sha256": "1e12f90bc7904c00d719d64c88897bcc7b42a3500fcdebb7b43fe8e0c660a931",
+      "bytes": 170451,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "fcf8608bf751af28a006cfa580d75079ba66cfb609b4e70fe7de8c804f00f38a",
+      "path": "media/paper/scene03a/physctrl_stage1.mp4",
+      "sha256": "3e74aedff9a2d2be0536916f1a654764aa71feb630df9f3662bf06ce80e1c5d7",
+      "bytes": 210186,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7c76cd0fb83429009519040547cd94640a2e42a11fde16ab254850703322183f",
+      "path": "media/paper/scene03a/hunyuan15.mp4",
+      "sha256": "6118ee70fd8220e31db9d7acb9727162b3c93bd16a0d6e608b463755a66b66e4",
+      "bytes": 700289,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "75a09c858de0a103c5ce98344f98a9d31eb96c8214f268d1ea7870abffb9fee2",
+      "path": "media/paper/scene03a/wan22.mp4",
+      "sha256": "edd9936e5d935160c46a5e6ea716d78e249f9ef09f168abec46869582db4fa13",
+      "bytes": 1964854,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "723673b38134fba138ad2f2bbc55a2cc5993a35bd5c6e777fbf11a3bb34df8db",
+      "path": "media/paper/scene03a/cogvideox15.mp4",
+      "sha256": "fb53b0acfef705cb80433da9307f1e6b646abcc18d4134b7219107dacd217d31",
+      "bytes": 2273170,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7245de10e1015ab78d8d30d593ff8838d94baf67a3902dbaf40dfd5b9b12581f",
+      "path": "media/paper/scene03a/draganything.mp4",
+      "sha256": "e20f78a62e734ad25041967994db6c97970f3079412ea79b309277afb0928272",
+      "bytes": 1164579,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "83ca9e0e2f91d58791c771fe140e4ed2e33e1fc56e0507c5ea25640b7deb784f",
+      "path": "media/paper/scene03a/objctrl.mp4",
+      "sha256": "b68ed414c35c9947261832c3d8fe8fcdae00db9e7dc6aeb2a6c28b9111077f8e",
+      "bytes": 545837,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "013321430e78f9395d94ecf3ff70a9fc26b9feac10b7a11a600425e10aeb561d",
+      "path": "media/paper/scene03a/flashmotion.mp4",
+      "sha256": "ab63af828e1565c4f60d7e4c6dad60b42b00724f2577def710284a865476c549",
+      "bytes": 2414651,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f8586f2acc9c80b6cc2e3b48d08a186bade99987a15cc79a049e7c9f1f5532bf",
+      "path": "media/paper/scene03a/wan_move.mp4",
+      "sha256": "2553b3b3c9b1bb7101ee9b79cd735c5db3a50b8e47636b3208fe24147c9b7e7e",
+      "bytes": 3719927,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5fa258a86f4d3020edadc52441380bcc1ac6c0e5f47c8623704c92ad2d4ad22c",
+      "path": "media/paper/scene03a/force_prompting.mp4",
+      "sha256": "c9b08c6a147be76495a8710dc248578c73efb280eb29657e4676f083c595c396",
+      "bytes": 484443,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "98121cd714e09429c238bf5c39c3f73a027b8f8b5b6e476b26ccb3ce48e882f1",
+      "path": "media/paper/scene03a/streamforce.mp4",
+      "sha256": "82d0e6ba67fdf04c941925e6d356ebad407e7ac88136ae6d489c55ef539e929d",
+      "bytes": 1495535,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "0fe21c0e2d358ad5204cf68b413900aab3fb2f78bfb4cbbb215d5ff393b2104c",
+      "path": "media/paper/scene03a/mpact_trajectory.npz",
+      "sha256": "0fe21c0e2d358ad5204cf68b413900aab3fb2f78bfb4cbbb215d5ff393b2104c",
+      "bytes": 1146693,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "903deae98617d4f98a31baaae14dbe4e45a408fecbaaa1b84796c36f317aabd7",
+      "path": "media/paper/scene03a/physctrl_stage1_trajectory.npz",
+      "sha256": "903deae98617d4f98a31baaae14dbe4e45a408fecbaaa1b84796c36f317aabd7",
+      "bytes": 555815,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "05434f974f580a06802dc5a5a802c8ab6b3a95795f130308370e65e08bc54fc0",
+      "path": "media/paper/scene05a/input.png",
+      "sha256": "05434f974f580a06802dc5a5a802c8ab6b3a95795f130308370e65e08bc54fc0",
+      "bytes": 406431,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "010b5555cd8bc2d4b24178eca3d3dcc1f234e16bb8d2adfb0ce92c002218d717",
+      "path": "media/paper/scene05a/mpact.mp4",
+      "sha256": "6e77c2772ae123ef2f75ae76775ace12228b4255ff3014fafb877c842981e0fa",
+      "bytes": 199564,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "471400f5f711ba442bc69c1bd7075f9a4ad6bbc6f254cf16b507b9db9bddc7ef",
+      "path": "media/paper/scene05a/physctrl_stage1.mp4",
+      "sha256": "be588aaccb6deb3b66ead84cf94bc31afe3de59aedbcdd8b757f3fbd71b25914",
+      "bytes": 197951,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b7b7e60783680b3533a43a24ff3a64157c06464f2e736bddbb75394cf61276d5",
+      "path": "media/paper/scene05a/hunyuan15.mp4",
+      "sha256": "ab41599358d5c0708c1d15021e47155cc023da2e473ba073409ac803404ebb2b",
+      "bytes": 597075,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "fa7fe7e47a8ce21db3d08d8f11c4c33e57dabb30910cf5ba1f7dcff13f4ad252",
+      "path": "media/paper/scene05a/wan22.mp4",
+      "sha256": "8076b43494f7df4e64b4dd6dbc4dc4201db4a9d267543b81ee1b7db0f8c9cfba",
+      "bytes": 1114993,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "840c5aacacbd56e5eb48d831445c567c9fd4702f73810bf7bba5b96a7717bc86",
+      "path": "media/paper/scene05a/cogvideox15.mp4",
+      "sha256": "dd5eab791596e6fcd2342d6676b28adcd2a3c6415ab9254b0e4429c446f4f6e0",
+      "bytes": 1083537,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e78eda9a2a10cc4e54be6e981c87b4a3381b8da2089d7d7c0e953270d7713f98",
+      "path": "media/paper/scene05a/draganything.mp4",
+      "sha256": "8fb72f8aca13ba9156a151a98fc11b8fa526f61a01d61836f56c3b70b5e1fb4f",
+      "bytes": 825336,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "24efd9c9a1c0a510b09c5f67a2d209f1a81391abe631ef236581e2170d13594a",
+      "path": "media/paper/scene05a/objctrl.mp4",
+      "sha256": "6aebc0c62a44b884e5839764073e26d27ef85d68b58c7ced8ed1dc9efa23c34e",
+      "bytes": 506658,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d3e5d8ae58a99e83d790fd62748a5aa15c72e50d29a2d1ff3534f117d9bfd59e",
+      "path": "media/paper/scene05a/flashmotion.mp4",
+      "sha256": "14dd88a03eb3d8e7fe645cf44fd10bd0b9112eaf154ed4ef1737a5e18afc994a",
+      "bytes": 1279581,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c2243b5e3ec00687f5c4af0eb04d970689c6d0b224044271256c0cd7558d4a8c",
+      "path": "media/paper/scene05a/wan_move.mp4",
+      "sha256": "4bd0a0ac9633e03175c589ff9614c04a4ad558dfaa992b6f475573c413e3e65b",
+      "bytes": 1463052,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "0063e77960221308148e1abec1f24deecdb53298ac522852cddaeb21c1f18116",
+      "path": "media/paper/scene05a/force_prompting.mp4",
+      "sha256": "8691a1b4003552493ef0d8027d4ac80b982bd6e06354c4c452b87b9a9028a0ed",
+      "bytes": 246072,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6e231695f4e3a5e083ca093a0bb5e70e6a68ff7d3b9e3a4173f2ac0b6922f481",
+      "path": "media/paper/scene05a/streamforce.mp4",
+      "sha256": "d2a9e3a20675e2890eec79a99a1e8d2ca8a6a47d1ed351b73a640212533d63f2",
+      "bytes": 1029156,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9e2d29f8ba01c032dfa7ebe4451785304bb4e4e968a3c6524f733ac488dc998b",
+      "path": "media/paper/scene05a/mpact_trajectory.npz",
+      "sha256": "9e2d29f8ba01c032dfa7ebe4451785304bb4e4e968a3c6524f733ac488dc998b",
+      "bytes": 1137764,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "5b6503906f8595b718ebe45c3cc4e6ca54812ff705a2e1f6d50101e4f20dbd49",
+      "path": "media/paper/scene05a/physctrl_stage1_trajectory.npz",
+      "sha256": "5b6503906f8595b718ebe45c3cc4e6ca54812ff705a2e1f6d50101e4f20dbd49",
+      "bytes": 555845,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "bff20f5d7e734683a7725506a74bbbce7d2f037bd5d3597a85e0d4aedc059482",
+      "path": "media/paper/scene05b/input.png",
+      "sha256": "bff20f5d7e734683a7725506a74bbbce7d2f037bd5d3597a85e0d4aedc059482",
+      "bytes": 398969,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "06d726f706dd56b3e1a4795a2334fdf53972463ec7470dc6c49259c003791c10",
+      "path": "media/paper/scene05b/mpact.mp4",
+      "sha256": "991c19bc875a0303da76d55cff952504ce2e958b6eccb6367e0df6e4aa79c155",
+      "bytes": 180536,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "553552c61e95e90e9548e3b2d6184c000b1f6cf054e0080f96fd5104a91cb8eb",
+      "path": "media/paper/scene05b/physctrl_stage1.mp4",
+      "sha256": "1f971f425c077d9245a23a535b3c498ea13ef75a05a41ae683634ddfaec9aba6",
+      "bytes": 170911,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "758042bbbf281d859204b077ea5f734b4c35918c3144314f8ad9c0f51e1bc63b",
+      "path": "media/paper/scene05b/hunyuan15.mp4",
+      "sha256": "2c37847b08d5270f849a4b3f2c5840bd6cccd8f8d5e1711c90342ed6d5270734",
+      "bytes": 662515,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f24919eeae68cf3e370ba1159f5f2facc6d48844f2d9b7c6d1b8afe50a000acf",
+      "path": "media/paper/scene05b/wan22.mp4",
+      "sha256": "fe81fd26a4871e4427446d9925b319a19dedb94a3c791746f7ff650a5f8f8df2",
+      "bytes": 1044780,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "61a1f389a9d200fc03ad92cb86578ff61e86224e539bafad9ccc66951609ccbe",
+      "path": "media/paper/scene05b/cogvideox15.mp4",
+      "sha256": "2683b3e9346f1f277232ba9b1698cf6953c9f4ca35ae996db7f7f24d0e11e166",
+      "bytes": 993749,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1440408c3911d2f0492b13992a9c42d514cb81382b75def8c2321d53e368a651",
+      "path": "media/paper/scene05b/draganything.mp4",
+      "sha256": "f2994a3f6156711c362c756672e42065457614dddea1d4f78dfec064ae9f038a",
+      "bytes": 867573,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "086006d9bcdd6dfdc406b03bd367d3c8ce52199a9da2aa318d5584e0b9e751e1",
+      "path": "media/paper/scene05b/objctrl.mp4",
+      "sha256": "e690b4e1e4a978b81bec5ed4a9d1170ba07d2f3ec56db30a068e8914ada98066",
+      "bytes": 421310,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6ffba76e9bc7d53d90fc3b464051b0bda7ae8a86c12af328804d0f416ce2b5e2",
+      "path": "media/paper/scene05b/flashmotion.mp4",
+      "sha256": "cf8ed909f3361858688047d59f8ccb3212fa7fe45282275dc7bf0ae132ee12fa",
+      "bytes": 1170370,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e201744dd35c5e4d91146498ad792a6b15c79771c70e7bfeeb85c5e0406e6fc8",
+      "path": "media/paper/scene05b/wan_move.mp4",
+      "sha256": "da7d5cb59264a8407636287cfb75119ee1e5cc60ac2481b2f6d7f7f38be743e9",
+      "bytes": 1455524,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f391579b4f9a2ec9f4c0c283f7786a7603311d9027b876293a5d6d256a65d1ff",
+      "path": "media/paper/scene05b/force_prompting.mp4",
+      "sha256": "7198587fc087d6def8b60ce277ad3f22ff6c500f2f27e2c0f54d6dacc329d4a1",
+      "bytes": 259264,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3145fe9335ffcb77ef4e06de3a68840b57f309b7e6eccca76d0ecfe282f93fb1",
+      "path": "media/paper/scene05b/streamforce.mp4",
+      "sha256": "67a669f0f59a8f24c0c3e4147218fd73d4aa3d2cc39bdb78ece15ac04081de11",
+      "bytes": 1006019,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e402a4d9297d629ac13bd0ada0c71f9262655c52eebababea0bd6d095c601f49",
+      "path": "media/paper/scene05b/mpact_trajectory.npz",
+      "sha256": "e402a4d9297d629ac13bd0ada0c71f9262655c52eebababea0bd6d095c601f49",
+      "bytes": 1136928,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "0f78641ab68a6ee50516c073bf31ea82285345afdec9e76347d9370e7bd32bd5",
+      "path": "media/paper/scene05b/physctrl_stage1_trajectory.npz",
+      "sha256": "0f78641ab68a6ee50516c073bf31ea82285345afdec9e76347d9370e7bd32bd5",
+      "bytes": 558979,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "163427ceb95bff3959f6f8aed46e18961bd4372be3eeea4375991a7468025ee7",
+      "path": "media/paper/scene05c/input.png",
+      "sha256": "163427ceb95bff3959f6f8aed46e18961bd4372be3eeea4375991a7468025ee7",
+      "bytes": 451554,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "71321fc185da624a8b1485e1eb1006156307b54b1ab9ef9b63d503b29b6dd231",
+      "path": "media/paper/scene05c/mpact.mp4",
+      "sha256": "1379056b9d49f1779d1100d3ff6f62b9eb7a2b9afccbfc878a187213cd349197",
+      "bytes": 132690,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "fcd9b01eb791889fb15536b81fae23bab4bd2a468a3c975717955645447da6e4",
+      "path": "media/paper/scene05c/physctrl_stage1.mp4",
+      "sha256": "f63ecd434ffd9a44ef4aab43514a03b593eedfa432728db0b565ea452ab715ea",
+      "bytes": 151756,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "42f755b34c691b96e182aa6e6f88265a85ebf643249bc1a4087aac9e49b91d39",
+      "path": "media/paper/scene05c/hunyuan15.mp4",
+      "sha256": "9934bec0d8e5b19c5a023a45976cf7cefdf5431a8fd7e32bf6c78f5e3e48073f",
+      "bytes": 553747,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "06f85b6d31f17ba4dc8189680a31ba96c6927a9170e251ed5cea9948c07108c3",
+      "path": "media/paper/scene05c/wan22.mp4",
+      "sha256": "9406d29c314b1f807548f7d49dd2d1c611b0abc6967d360919bb3c3e853d050b",
+      "bytes": 1216827,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "45ab24e24d572cc621a068a5699690e8a0a959c64ebbd1e8d44fafef1aa92a87",
+      "path": "media/paper/scene05c/cogvideox15.mp4",
+      "sha256": "93b2747ff34d9378825c4614e6332b8a6a99b35f60e0b0722f4fc3e5915d6e60",
+      "bytes": 1055114,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "973c778196e30af34308a94f624c875c32b24435bbe1a76fbf7af55af1ccd32a",
+      "path": "media/paper/scene05c/draganything.mp4",
+      "sha256": "193bca369fa8e1956f19d956a26f814d72434e5e0f6e98eefa7d4dc944a83f3b",
+      "bytes": 951923,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "85d844c5a0bbc37d8e50d657a8ff0d2b89e92bce8dd2611b0f1e3615cf3847f0",
+      "path": "media/paper/scene05c/objctrl.mp4",
+      "sha256": "a3fcddae0930854e8c2768203b4178a74b21c28d16527773ce6c175aa932b9a5",
+      "bytes": 372403,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b82dce84eb70e5f6505030af9ddb49cbd7d95c4c8e9b728ce2fa8362b4ad0560",
+      "path": "media/paper/scene05c/flashmotion.mp4",
+      "sha256": "d9865fa9cc4dffa4c00b5c9b89ff4a7b5a583ee6ca05ae3967da80a63cd56448",
+      "bytes": 1173199,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c644d2843b0d79fb35beb2e8e7f307c9d22c3eaff39cc1b2269b3deb16c5d1c5",
+      "path": "media/paper/scene05c/wan_move.mp4",
+      "sha256": "39dda8cae1912ece97a468baab5adf20f445ed10a177bb11e624a8877b5a6cae",
+      "bytes": 1687665,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c0f64b54333a318a99583fa56a97cb7848987ee555b3c2aa5856b60a22bb6eaf",
+      "path": "media/paper/scene05c/force_prompting.mp4",
+      "sha256": "4413d9a3d25ecfaa52807e57ea9a7be7bdbd0257bf154174bbf55c95fa447fdb",
+      "bytes": 401732,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1768dd1a91323b0cd9396fb671403720571a474b0ca3a05e586f73336b73f015",
+      "path": "media/paper/scene05c/streamforce.mp4",
+      "sha256": "5605398875fbfa7418567b3749d00d0ce4ba2b6adca9f960b25677852596ca0a",
+      "bytes": 1024829,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "71cbe471dac6f77ff951822e174e902fabac7f622bb67647c50c4407a213a8b2",
+      "path": "media/paper/scene05c/mpact_trajectory.npz",
+      "sha256": "71cbe471dac6f77ff951822e174e902fabac7f622bb67647c50c4407a213a8b2",
+      "bytes": 1140071,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "c8d858b30b44f8da7e7869bdbc5b147e64083203eb6758cc063a56253c9b6228",
+      "path": "media/paper/scene05c/physctrl_stage1_trajectory.npz",
+      "sha256": "c8d858b30b44f8da7e7869bdbc5b147e64083203eb6758cc063a56253c9b6228",
+      "bytes": 556627,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "85cae1af1ef6095d4b5f274f4dae93676319914defb0543e18e18a8e45ee9b33",
+      "path": "media/paper/scene06a/input.png",
+      "sha256": "85cae1af1ef6095d4b5f274f4dae93676319914defb0543e18e18a8e45ee9b33",
+      "bytes": 501171,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "bd4baf50ead3a6ee22ab4848fcb76d199e168527a1afc330cdb3b133a001e41e",
+      "path": "media/paper/scene06a/mpact.mp4",
+      "sha256": "76740bc2a9f3be5a03384dcccab256842c33047b7a9dfb57414f03633e63ae82",
+      "bytes": 200166,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5ec82a22cf8c6b9bac4d19d14aeac56fa3d270b6d4517d5396ba37560ad70cb8",
+      "path": "media/paper/scene06a/physctrl_stage1.mp4",
+      "sha256": "5770bd029de3a7490aa5c03232ae2fa7af2dfc61d9b12faf0fb6e43879f6b2c3",
+      "bytes": 195637,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2ee2477c5baceab4438e9f33326f91eed552339947f3b7d78f38f89075898ccb",
+      "path": "media/paper/scene06a/hunyuan15.mp4",
+      "sha256": "ca6ff3d464cdcd53a0b3c4c389d5363070109a90f4b88a2d89911a3ffb0cfe88",
+      "bytes": 745964,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b71fc0dd55d4d33055160957342b58828f191a2cabafb3fc460711638c130a0f",
+      "path": "media/paper/scene06a/wan22.mp4",
+      "sha256": "027005a4bae636157a9a68cb796806725c97a7ed2ec045b2e67ba9987b9f2679",
+      "bytes": 2344876,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "dd1e6a3800e63d6e7c344e7ed908de0d4bd5e3d92a023cf452ee90746b253ae0",
+      "path": "media/paper/scene06a/cogvideox15.mp4",
+      "sha256": "265ab9afc1d9c695072daf368f45971259a89342c56ed6a7174875258893c1b8",
+      "bytes": 877611,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5a8958714ee57671dad140fb9205477e28a1e0e9d5ee62a487cbc637b738da53",
+      "path": "media/paper/scene06a/draganything.mp4",
+      "sha256": "8d007de0ecbb7739a1defe1dfa754a3f9dc30991074f0e142565439e5003acd8",
+      "bytes": 1169551,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1a71b8b403e1977549d8e69766d419bbb67b6d0ea7625840e92ddcb8974f7b33",
+      "path": "media/paper/scene06a/objctrl.mp4",
+      "sha256": "93f5f56986d830c7253d4c69f191c4b4c5190f1638ed4a35cf5ebda35e9eea39",
+      "bytes": 479886,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6c0d01885091a881dc93baccf4879ccb44079c99d8191ef773b45bd53a983336",
+      "path": "media/paper/scene06a/flashmotion.mp4",
+      "sha256": "25ea6e31ebb8f155189e35fbcb37b5c9c273c469d085062de90aa3352d8aad0c",
+      "bytes": 2040685,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ed87952b96cb7292073071b733048e57393f6ad04dd0e6200f3232a18c3b2efd",
+      "path": "media/paper/scene06a/wan_move.mp4",
+      "sha256": "4aec03af5b041f75c5fe67ea9e493934f1e7c865869c5f98f22a10bc70cebc76",
+      "bytes": 3392180,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e704bc49af6a19d33bb22f97d1cb51c12cfe10ec84861972cde9a196d0d4b0e5",
+      "path": "media/paper/scene06a/force_prompting.mp4",
+      "sha256": "8d0be6ff7cf41bdf1773a7a96fa6d9303af8c8b064f19de5e5abc570ed801957",
+      "bytes": 538825,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c46656adeaf564b08d132abb4592d49539128d40d8ab989e935c1c71396f492c",
+      "path": "media/paper/scene06a/streamforce.mp4",
+      "sha256": "808a7c0524001fb6441255a35233a4d89d6e902976a6b397998f850d43f1bac0",
+      "bytes": 1429309,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "dcedad5c66c87dd07fcc562d899f1d381695e1d65ec6f5e8448fb129bc3f7a25",
+      "path": "media/paper/scene06a/mpact_trajectory.npz",
+      "sha256": "dcedad5c66c87dd07fcc562d899f1d381695e1d65ec6f5e8448fb129bc3f7a25",
+      "bytes": 1138395,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "b0667b0457b6787fcdfc29e8707b9c494c26a12ae6a5961bcf6b6cd12e3275c0",
+      "path": "media/paper/scene06a/physctrl_stage1_trajectory.npz",
+      "sha256": "b0667b0457b6787fcdfc29e8707b9c494c26a12ae6a5961bcf6b6cd12e3275c0",
+      "bytes": 558507,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "38e5b56fb671e1295c0b52b2eb3cb98db55571f4fc7add785e9a09476b717b41",
+      "path": "media/paper/scene06c/input.png",
+      "sha256": "38e5b56fb671e1295c0b52b2eb3cb98db55571f4fc7add785e9a09476b717b41",
+      "bytes": 561378,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "b370dd1fd3c14fab862f9839f9915ebd0834b70cf9ec18247e261d8114657fb4",
+      "path": "media/paper/scene06c/mpact.mp4",
+      "sha256": "bdf7d06de10eba4e9ef85276879153164b396abb1e3ea9b9e07de69168217943",
+      "bytes": 278810,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5bec6d3f8519ac654efadc145238e5b652469c50c6d0f771665cad07acff03a9",
+      "path": "media/paper/scene06c/physctrl_stage1.mp4",
+      "sha256": "e3534239e9020e5c9fc16a0a130fe91f437f428c352c914ce4e89daa53442ae5",
+      "bytes": 274044,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2e38feb597e1623512ee438425ba91223bd6a65834972c63e2a4ab67556b98e4",
+      "path": "media/paper/scene06c/hunyuan15.mp4",
+      "sha256": "f38442800874fc4214034162c9ee13893e9822df9a97ad7db23e0a5138818799",
+      "bytes": 962621,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a2fe9335cfd106115a932602a62c39c956249a21b9c8ae2aec4ec92ecb0f2484",
+      "path": "media/paper/scene06c/wan22.mp4",
+      "sha256": "a7f63a7bd5ffbf3db90cf2be0f7c6748bd7f1dcee802862dc8584081eb3edf79",
+      "bytes": 3046935,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "eaea3d18fdc1add230ddba352866f6d3817c3212b45609f99cef833235d18eb4",
+      "path": "media/paper/scene06c/cogvideox15.mp4",
+      "sha256": "adae5b847f8ae57df717d80e488cfaf8a0a5583adbcd3bf08ab217392930c97c",
+      "bytes": 1201284,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f0a58248bd5f9bd5a05b8294efbbc7dc6ade0747db9501ed2d56e77d426e1cc2",
+      "path": "media/paper/scene06c/draganything.mp4",
+      "sha256": "252d0aeeaae7427ed5c7ac355172474bffed1c280f0de032e992dc6b02bda341",
+      "bytes": 1325235,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "69244fa2331edd39c779251c1dd20369741265af0f20edfea950794ccbf0da92",
+      "path": "media/paper/scene06c/objctrl.mp4",
+      "sha256": "e3ce6215e678935027b493b8435f10bed42c5b231fdaf403788e68d277fd8007",
+      "bytes": 546787,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e2547e1132a2f82f8be8c15b6644fe3f23ec9d13e52839a94596c924d6ba7413",
+      "path": "media/paper/scene06c/flashmotion.mp4",
+      "sha256": "94d8721d991dfb7729649ab87a135b5f31bc5f5a5b92830053268b1051414214",
+      "bytes": 2540438,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2671a07570b9a63997b66cf5a8ddd840227f338bb16aad389b8c1bc9ee593dec",
+      "path": "media/paper/scene06c/wan_move.mp4",
+      "sha256": "53e39329ba55e83214af6224e0fc3a4a33a55be26272a83604f5990042ab0354",
+      "bytes": 4199172,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5135c8ea24d36f2ddbdeda03bb65b211b218c2c33df46e6f0e56322dbb4aac5d",
+      "path": "media/paper/scene06c/force_prompting.mp4",
+      "sha256": "7dd5105b145a25aadc6c0c16c8c373ca1a02d0ed50a8a973a1ea2a0864ec2248",
+      "bytes": 526457,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4644569c6d7a0df7ceff122db4866d9040e0b61b0a76741c342ad81f5cb2073e",
+      "path": "media/paper/scene06c/streamforce.mp4",
+      "sha256": "705806e0d54821c0c9af5bd0798a668fabf9cee603eb087b2d0532778d8aa24c",
+      "bytes": 1692387,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "68e6c219e6300f753cc10a836e7c68640cd6bd37ca8a8632616ebb107b660a5e",
+      "path": "media/paper/scene06c/mpact_trajectory.npz",
+      "sha256": "68e6c219e6300f753cc10a836e7c68640cd6bd37ca8a8632616ebb107b660a5e",
+      "bytes": 1139647,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "39ac87df1e8f3d929b6db840cf5131b99ea22978ddf114628c2697b6378013ff",
+      "path": "media/paper/scene06c/physctrl_stage1_trajectory.npz",
+      "sha256": "39ac87df1e8f3d929b6db840cf5131b99ea22978ddf114628c2697b6378013ff",
+      "bytes": 561599,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "ac9dae611526ddb24d7b18e500a06f09edb81c159d1b42a4c5809e6456d43e0e",
+      "path": "media/paper/scene07a/input.png",
+      "sha256": "ac9dae611526ddb24d7b18e500a06f09edb81c159d1b42a4c5809e6456d43e0e",
+      "bytes": 528202,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "dc607d30952db73198506d1f3b72eee643dc25c636b2787f8fde2fffa593bb08",
+      "path": "media/paper/scene07a/mpact.mp4",
+      "sha256": "fcd73b6cfa747f417783636fe650818be3bff20a2307d37dd54280bb599c20b0",
+      "bytes": 234091,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "efa24f2de5df3a556a1bad99c0900ed48c514e051144de7a94a2dbf1529190c0",
+      "path": "media/paper/scene07a/physctrl_stage1.mp4",
+      "sha256": "99ac4a42f02e7bc51e158c759432b00adfb7a88d245ff9cea7678f325a007f67",
+      "bytes": 234308,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4d0e75790cc7ced519c584b0c1c10a61178a41ecf2db0c5e496f9c16b18d0ca0",
+      "path": "media/paper/scene07a/hunyuan15.mp4",
+      "sha256": "750d7bf11ac541f1dd053e7ce90f5a59fb4e5060a6766d21831dfb183173f522",
+      "bytes": 750180,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "fa1a0bf58eda6e406cbc1c743d153d44baadeb2f17154fbcf2d247f189b3c909",
+      "path": "media/paper/scene07a/wan22.mp4",
+      "sha256": "35c7eade3ada75ff60388db31f18a39ebd3d8a575cfeef33a61a74074ea87283",
+      "bytes": 2240963,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ec8e88d645d99f97471e1e3dc90943d6b600314dae8cacbf83aa944c2dbf994c",
+      "path": "media/paper/scene07a/cogvideox15.mp4",
+      "sha256": "cfe992e0de1ffd4d4c44fcb9f18efb546d252b2443aa39995c1eb513907b3f21",
+      "bytes": 1474834,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d775c1722db12438be9854b2972b1cf6c2021ec884e02859c188880380c99b39",
+      "path": "media/paper/scene07a/draganything.mp4",
+      "sha256": "b49e808830e9f8544267c158a86d6f612cf786f3473fbc8d5112d903787dfd34",
+      "bytes": 1365300,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "459a0ddbac3eba2dba8130978f5d340c4a780fec6204b8e095d125c52e143641",
+      "path": "media/paper/scene07a/objctrl.mp4",
+      "sha256": "9c1be542f885a67e5e67051dfe69b6261d5b075b135e7c1af8649a31f6ff1a64",
+      "bytes": 418780,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3c82c6c3f2c1bf8b8e71b566a8573bb3f32581b68c2c688a3ec6a0daa62d38e4",
+      "path": "media/paper/scene07a/flashmotion.mp4",
+      "sha256": "06733a5446112d5b5bb8ac8dfbd61d7e86802774787f213000caf2c8470269a6",
+      "bytes": 2286948,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4c9ca7985e42319492a0060ea54598b1750beb28912594baab4ecb43c6ebe8f0",
+      "path": "media/paper/scene07a/wan_move.mp4",
+      "sha256": "58920d148cc6a56139924b11ccae4b381dd54f63db1389952a7883545615adb9",
+      "bytes": 3631557,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "0a17c621e374daf9d33e176a9ed22e1cab2fa1f87779b553af7916a089949baa",
+      "path": "media/paper/scene07a/force_prompting.mp4",
+      "sha256": "29726b4af9bcd5c6f074b3651f60c894cc7737c4bb7e473788f0e3ba75721242",
+      "bytes": 490598,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2a441d229f5feea2735b89e50b72816654f4bb33dc51b05a172b7ce865893eb6",
+      "path": "media/paper/scene07a/streamforce.mp4",
+      "sha256": "6b26d1159011196274fc2b493facea2ffa65c4a2a3ef19b83d025aaa4bb8afae",
+      "bytes": 1545633,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7e2a3095bb2791f30e384fece82038f6d77d8e8beebeb0645c3fe1f49d1ba94b",
+      "path": "media/paper/scene07a/mpact_trajectory.npz",
+      "sha256": "7e2a3095bb2791f30e384fece82038f6d77d8e8beebeb0645c3fe1f49d1ba94b",
+      "bytes": 1123726,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "01877668c9bfa9b157f2d5e651e48f69e03f15fce59042cb7dc866f5ef986ed5",
+      "path": "media/paper/scene07a/physctrl_stage1_trajectory.npz",
+      "sha256": "01877668c9bfa9b157f2d5e651e48f69e03f15fce59042cb7dc866f5ef986ed5",
+      "bytes": 551101,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "d1d7cd226fab64234bd70533a7a0d85d0289e40641afb396d3bf58278f38485f",
+      "path": "media/paper/scene07b/input.png",
+      "sha256": "d1d7cd226fab64234bd70533a7a0d85d0289e40641afb396d3bf58278f38485f",
+      "bytes": 455948,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "bd4ea4e8bebe02e8061ef46be10ca4b453cbbcca04ffda1762406f24415dc908",
+      "path": "media/paper/scene07b/mpact.mp4",
+      "sha256": "abe9c64928978ea1ddeb8baf0af6d78e45176f4444777220c110d150954a3c84",
+      "bytes": 193074,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "bd1dbe0034be6ae52862b8f3c54ed06494f04ad5b4abfe8c4d43bc2ee2841305",
+      "path": "media/paper/scene07b/physctrl_stage1.mp4",
+      "sha256": "62290445a21b2dde7bae58e3b148c9627426ddf6cfd19f433640b127e0c1c33f",
+      "bytes": 170168,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "09cd528eed3e8ed5c180a280b66f0a5a2ec228ffab9581612696a73f8991f5da",
+      "path": "media/paper/scene07b/hunyuan15.mp4",
+      "sha256": "59a50a0e847dd0870e5e4f74a3ccec4221cc64564193519bc93dca72ebe87ff3",
+      "bytes": 713459,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c77b3ae53812193170760b52ab30332a926edf4fd7753b10aac704fd86384390",
+      "path": "media/paper/scene07b/wan22.mp4",
+      "sha256": "c837aad28558a86e233d8b0d7c087ca6078cc5342fc945db9a6fba601c0560af",
+      "bytes": 1725169,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b21a4377de222925b859147d79e82e7291dba31299a9a7e1f432728d52671dd9",
+      "path": "media/paper/scene07b/cogvideox15.mp4",
+      "sha256": "83fdbcee76103360ac275d39df9107c9f05709bdb68b11dc945205c53963be0d",
+      "bytes": 998502,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3c7cc9bf90121128f3ad2a1067b5bbabf3b83f2f2076af689c8baaac18e615a0",
+      "path": "media/paper/scene07b/draganything.mp4",
+      "sha256": "9b46cb0b87670b22dd6b0a0f996ceed6eed3dfac74afa39590e8165b979496e3",
+      "bytes": 1115754,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "153f4f42a54976389bb03ffcb715dc97604cc25b5a63773ab22d9e5bd721bbd5",
+      "path": "media/paper/scene07b/objctrl.mp4",
+      "sha256": "b219f1583a40aa6d78c5ea2e2a62118c8747373f34bead057c6eed5be22506f0",
+      "bytes": 536279,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2a5951d0e0b3048131b7339b22d03dbd91000f59c8f6a3e334dde76182eb409f",
+      "path": "media/paper/scene07b/flashmotion.mp4",
+      "sha256": "eef164875e8266a56905574381f903809fa60af4e09d1b9b67fc713870a296a4",
+      "bytes": 1311996,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9f510169c16d94df076c6183a5ecd43340810b281bd95f1dfac7262423dbdb95",
+      "path": "media/paper/scene07b/wan_move.mp4",
+      "sha256": "3394310a5caa57550d57df6fa36f692df2a970b9ae87cf2f6c0bcdd22b29e13f",
+      "bytes": 4162133,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "262213bfd747b2006673fbab4e83afa8ab7a35992797075ef057ff782faff5d2",
+      "path": "media/paper/scene07b/force_prompting.mp4",
+      "sha256": "7332d72f6a40f37b3aae562a27e19325d39ab6aca2154b27680ec331b3c1c5c5",
+      "bytes": 392823,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a26f7ad41bfb28bdc61b9c32527c5382f12ecc8f0d3b4582388bf7a50fc9af24",
+      "path": "media/paper/scene07b/streamforce.mp4",
+      "sha256": "603f6b53649a5fe4748fb24b3ca2e17fa67dcdaee5e41e73043150a89c975923",
+      "bytes": 1167819,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "26d56bcbb5a054b7d025fd318c478dcb366b42821db14d1134e78592f3f59ec1",
+      "path": "media/paper/scene07b/mpact_trajectory.npz",
+      "sha256": "26d56bcbb5a054b7d025fd318c478dcb366b42821db14d1134e78592f3f59ec1",
+      "bytes": 1135177,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "528536cf7251f4c0e7940534549d8b10bd4c257371f8806d93a3481f4f78bf16",
+      "path": "media/paper/scene07b/physctrl_stage1_trajectory.npz",
+      "sha256": "528536cf7251f4c0e7940534549d8b10bd4c257371f8806d93a3481f4f78bf16",
+      "bytes": 554168,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "344bb17c7b9849eb9b8643b49763b6668746e3c786aa8e04a1c32ce0307ded15",
+      "path": "media/paper/scene07c/input.png",
+      "sha256": "344bb17c7b9849eb9b8643b49763b6668746e3c786aa8e04a1c32ce0307ded15",
+      "bytes": 495126,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "3e6815520e22962e448b311d597f362d678ae042333db8a0d4389e88aaf472be",
+      "path": "media/paper/scene07c/mpact.mp4",
+      "sha256": "94c4e0e33be98534c2e675465d2132fb2ffdc4bc3ffc7b12f130c992e900ee20",
+      "bytes": 160122,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "0ad5b84c770532c2d5bec18c1f6447989f31642ada0605111e8d5af079898faf",
+      "path": "media/paper/scene07c/physctrl_stage1.mp4",
+      "sha256": "0a7993d07bd33ce2cef62edaa4a87d582fbc4cebe4adaacf6ec15761841d59a0",
+      "bytes": 151413,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f377ae2cba1c06e18e9866746268d717bdb7b7f0a02a22a40e42483bed420320",
+      "path": "media/paper/scene07c/hunyuan15.mp4",
+      "sha256": "c90d9f1c127bc7651663314a1884102af1d1ba9b20c9c53e78964cffdeefb551",
+      "bytes": 675161,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "75398f8391eb791b297f5633dc86d758cdfe3e65787455303c57619339ea8f21",
+      "path": "media/paper/scene07c/wan22.mp4",
+      "sha256": "3cbe9a4ec08b4f3a443cd1730047eb58f9a352aedaf9cbdc43942c7c6aaa6a1c",
+      "bytes": 1837822,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9ea5d0f2c263ee395dd7033fe9531a997adbeb0a9d5e9c4a07833d1c2bf36495",
+      "path": "media/paper/scene07c/cogvideox15.mp4",
+      "sha256": "34e1193b84001ab8d3758d42b2d97c3dc1f8e56fc8a025e65ec39372b1864891",
+      "bytes": 1105301,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "29ae8c3d8aa0501ee3a7eaf7a6ed2348469f574a0fe6ed879cd3ad438eef70db",
+      "path": "media/paper/scene07c/draganything.mp4",
+      "sha256": "43495984eb0370a3bbd3c1147e10774e16c85d3bf76f5ad9f8420c99c24cc425",
+      "bytes": 1097005,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "22d2b48a216a7eeb028623c476c6519203727e5798263eafc6ad843a2392ebab",
+      "path": "media/paper/scene07c/objctrl.mp4",
+      "sha256": "b4bd2af352831d643ea96738a4abf25898bade84a3dd8ffe5b243856e3d51c6f",
+      "bytes": 399089,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5c5f48dacf19c7b1dc4e408630a6f9b8391540aac48da7af183b57d0df747a9c",
+      "path": "media/paper/scene07c/flashmotion.mp4",
+      "sha256": "30e3f068706315b95cb58fd46eaced8c1f40c8f6c26bf783c2358e887792874d",
+      "bytes": 1278136,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "0c8ed9d566270011839c640256dd9e2ebef56195aa2c31e58a3260e9edc5d66c",
+      "path": "media/paper/scene07c/wan_move.mp4",
+      "sha256": "f8e6d492d241e8e01bf003248ab6271034d6cb00f54be2ad1cbef754316cddd5",
+      "bytes": 3187153,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f724254ea355e1bb1ca431de1074f8e647a9226900f6946b379515c24e9212e8",
+      "path": "media/paper/scene07c/force_prompting.mp4",
+      "sha256": "91301b4f1a84d64eefd634a0a1671a281f6b4a082bae4869c9b4e02cffccc52b",
+      "bytes": 394935,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cad18141016867b448d2572a918db47c3475c6e101ab5b8fd9ab0c646d206659",
+      "path": "media/paper/scene07c/streamforce.mp4",
+      "sha256": "99932dd95039b26c788f73520d9dc5d6186c1fda541485e5b2e67ecb9ad17509",
+      "bytes": 1089038,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7b978c400a4f776e711de053ce80c21d05e51622ff85c22c5d7cb13238d80c79",
+      "path": "media/paper/scene07c/mpact_trajectory.npz",
+      "sha256": "7b978c400a4f776e711de053ce80c21d05e51622ff85c22c5d7cb13238d80c79",
+      "bytes": 1115152,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "8a29f48b6d71f75d6c4f417bfc747e38a55f30b7c384b88b011412f8ef897876",
+      "path": "media/paper/scene07c/physctrl_stage1_trajectory.npz",
+      "sha256": "8a29f48b6d71f75d6c4f417bfc747e38a55f30b7c384b88b011412f8ef897876",
+      "bytes": 545729,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "de256cdef72fc0a41482420c336cc73bc0a46e1bcca27e3d45883e32a9206202",
+      "path": "media/paper/scene08a/input.png",
+      "sha256": "de256cdef72fc0a41482420c336cc73bc0a46e1bcca27e3d45883e32a9206202",
+      "bytes": 539211,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "462c4bdf06daf5866754e5920509c78fc2b453b26878bad4a86d39df58dd169c",
+      "path": "media/paper/scene08a/mpact.mp4",
+      "sha256": "c32cf8f172d9f846c75158fd226f5e7ef74c46956ba638d53df99cff1b32b296",
+      "bytes": 328759,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "876a0a4b971c4a5812c930a0f511f66b1599d6de2ef6346a75103545c3a90fdd",
+      "path": "media/paper/scene08a/physctrl_stage1.mp4",
+      "sha256": "f540fc3c52ee19228c961ca79c030824982e8a33e97c4f36f86b56a1d69cbe0f",
+      "bytes": 296896,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "224686a613566bf38cf1ea83bf3df0959b8db1741bfa054762e36bf1d5a42bd2",
+      "path": "media/paper/scene08a/hunyuan15.mp4",
+      "sha256": "4616df282fca2a6ebc141b7c14ceef87cb2c73225d1a0d144c12c837ed4a423a",
+      "bytes": 949765,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ff6e00ce61ae8fe203b59140a5065cacb3b0e886973c89ba5ad9dca8f693af2f",
+      "path": "media/paper/scene08a/wan22.mp4",
+      "sha256": "52c461d2ccdcb64a30298363ca218903faeb9da4305f9b020b7483d9233d1041",
+      "bytes": 2944150,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "bd4c940bb6b29c1fe8ffe660152658d8e5fda68ded90cdd8ffbcfe8c7048b20a",
+      "path": "media/paper/scene08a/cogvideox15.mp4",
+      "sha256": "294acad806e54d4eb94b5f32917e85f868d5aa070e0e99f8fccf44ec07ba9bd5",
+      "bytes": 1300960,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "68b4f48a6d936198d659548bf6fc186ba59b2b5e1ff796710386320968173c46",
+      "path": "media/paper/scene08a/draganything.mp4",
+      "sha256": "210d5eddea4a3d695c69f78ae117759c902c259069b2694b257ee5729db86fc3",
+      "bytes": 1354917,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "712bc27cc3924ceb37ff5e507fe0f1f528609ea79cf34a08d27f09dd7e41391f",
+      "path": "media/paper/scene08a/objctrl.mp4",
+      "sha256": "fc18ce2f3c0d6a3ba2f127aafe3d62fed2a615982d45a12f07af673935dbdc0c",
+      "bytes": 732672,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5e40e9eb36c4908f6ef2bfc82404669cc5110f6460e89b44915b832931e0ef0e",
+      "path": "media/paper/scene08a/flashmotion.mp4",
+      "sha256": "1f7d862df1412fb160611ef2d77c826f16b7a1f80a432501d34b8ffc626dbc1d",
+      "bytes": 2905007,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "84af06eddb5e9bcd2633f5d2d5a37befa822f78ae18667eba1ba5f4a9d109a92",
+      "path": "media/paper/scene08a/wan_move.mp4",
+      "sha256": "4d10ffd0ec9e77630de9946f0bfbcdd1cda49b1db162b1f08d97532b11ea31f6",
+      "bytes": 4111490,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "40e06715aa2c6a6ba054a7e5ef28dfda607fc257258a65d518ac4ca97beb14a0",
+      "path": "media/paper/scene08a/force_prompting.mp4",
+      "sha256": "62e8e5ed5587090741934d95733ceac80d556194af023c37d26b8f4a6e4ad12e",
+      "bytes": 639211,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8521ef801e24ed76130a000c2c571935ba9e46721b96bdbb969510d26297c4b3",
+      "path": "media/paper/scene08a/streamforce.mp4",
+      "sha256": "ac32480c65e516ca1c4e9f8d9deaa962b96b9d14b2673883e0beb397d5662a25",
+      "bytes": 1551572,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "edf840089a1925eec82788d051861ff8142953be50727f30bb266497f8f9168c",
+      "path": "media/paper/scene08a/mpact_trajectory.npz",
+      "sha256": "edf840089a1925eec82788d051861ff8142953be50727f30bb266497f8f9168c",
+      "bytes": 1088173,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "78c16bc68d9bc1372b900c62f526d24dda90cf987813e23af49a3068b764e4b5",
+      "path": "media/paper/scene08a/physctrl_stage1_trajectory.npz",
+      "sha256": "78c16bc68d9bc1372b900c62f526d24dda90cf987813e23af49a3068b764e4b5",
+      "bytes": 532279,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "dbe691bf017b52d243577307f226d8855d13ac7403b6ab5f711aca6c8e435ce8",
+      "path": "media/paper/scene08b/input.png",
+      "sha256": "dbe691bf017b52d243577307f226d8855d13ac7403b6ab5f711aca6c8e435ce8",
+      "bytes": 543093,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "98668ded5fe72f89d08798e692a132e0c0e26deccd6ba77c1cffa6692987b820",
+      "path": "media/paper/scene08b/mpact.mp4",
+      "sha256": "0549007014b1937d1cabfef1d1cb6db15d3ab81cd0bdabbdbc405e534ce4cec4",
+      "bytes": 322252,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2538fc55d9ea31b353b1c4e4a16b766ace627449dad06260010140ca3623b8db",
+      "path": "media/paper/scene08b/physctrl_stage1.mp4",
+      "sha256": "e2aa1b24130cfcebe189f800c728ddec3ae619b07ec174a11308cb10589c681b",
+      "bytes": 287301,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4c38d2b80b4b90a00634e0e5ed4bbf8ea41be32a0da5bca8c9cc5ec7c259cb20",
+      "path": "media/paper/scene08b/hunyuan15.mp4",
+      "sha256": "71a658d30633cd30c2eefa1078f4f22352b79be8f5b92e249a87ce780037d711",
+      "bytes": 1057932,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "fa66679f36a51bb2670497abf579e8d19e03280d289b27e087fcf8ce3f3e8ae4",
+      "path": "media/paper/scene08b/wan22.mp4",
+      "sha256": "3bddcd2992d092c8432fac6503bd55d664526f511303444842c6d54eb572abba",
+      "bytes": 3238017,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "63786c7931c439af5f16760cb5a656fea8a4c9ca3c7d0befcc95bc5e1ada87cf",
+      "path": "media/paper/scene08b/cogvideox15.mp4",
+      "sha256": "7ffeb79d0092cc780ff74c31b88b8d6a472131dab2fc7056b9792623f8360f74",
+      "bytes": 1686773,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "100d9d41727ca5a1c63527c70e94530f1ebe1ee13cf25072c232746f510e6cb0",
+      "path": "media/paper/scene08b/draganything.mp4",
+      "sha256": "84d7c25ab0da3c6967eefd9c4ef4a5da9f388941c5f94525122597f8cab59549",
+      "bytes": 1437576,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "fabc3d72070da9d722e40a02073af2ab077d753980633fecc891c753c5212574",
+      "path": "media/paper/scene08b/objctrl.mp4",
+      "sha256": "bd296f74113acb8fcb4dabf1e1c7cdc487515754e0b757a83f4241c3c6498a9f",
+      "bytes": 959604,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5c7b69dbe8f39712fdd53e2b5d6dc1abe483aa2c6e4436018b944ca4cfdd2af9",
+      "path": "media/paper/scene08b/flashmotion.mp4",
+      "sha256": "80522170b8e63943b0ac57b2f902ba77cf7f25f3fd1b868906b09b8ad989156c",
+      "bytes": 2844039,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "30a2ff2ac96d70c32419a53ef46d811353bd0a8b01794f1c9c9117a64f7e0e2d",
+      "path": "media/paper/scene08b/wan_move.mp4",
+      "sha256": "7feaf84d7428ba1ad3a4c4907689f317cfaa84148539543ac11eb058a8904021",
+      "bytes": 4710249,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c4049b67a49d9681e9d1b3974141fdb61ec546fd17f4747775fc01b8b3ad630f",
+      "path": "media/paper/scene08b/force_prompting.mp4",
+      "sha256": "f479e409a65f1edb49094f6d8b0805199da6b0ec3baba4b09efba554bcdb7c37",
+      "bytes": 511880,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "270c69c6ec9ecd2667dd4aa6778656f3850092808d4b79b4cacdb7bdee45376d",
+      "path": "media/paper/scene08b/streamforce.mp4",
+      "sha256": "76ebb577924d92749d50d24df492854505096ee454a5978a088a53429be37e6a",
+      "bytes": 1594451,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8bfe545d535bb6c78ba43fa61546ce4a7ded0dfbca7e51633cb5583580bb973d",
+      "path": "media/paper/scene08b/mpact_trajectory.npz",
+      "sha256": "8bfe545d535bb6c78ba43fa61546ce4a7ded0dfbca7e51633cb5583580bb973d",
+      "bytes": 1095844,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "4ba826ce3034da09599a1690d3dbe90aeea547744f590bc6f6cdeac085b62fbb",
+      "path": "media/paper/scene08b/physctrl_stage1_trajectory.npz",
+      "sha256": "4ba826ce3034da09599a1690d3dbe90aeea547744f590bc6f6cdeac085b62fbb",
+      "bytes": 534677,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "d38a4545db371b8d5fc76092f392a8d4566aaf6ddad835475c70cb5700c32580",
+      "path": "media/paper/scene08c/input.png",
+      "sha256": "d38a4545db371b8d5fc76092f392a8d4566aaf6ddad835475c70cb5700c32580",
+      "bytes": 524188,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "f123bd23da07ab1acacbca967335573033a915a9f9b7c46a863da2fcfeb0a96f",
+      "path": "media/paper/scene08c/mpact.mp4",
+      "sha256": "69a754a38cd4d40f67d920510e32ebc33685393d49e619c9ca46f82ad47357ce",
+      "bytes": 284861,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "11a3ddab9c906e98114f12c23f0edfc8f26285d05386edfa6295378180ae7d5d",
+      "path": "media/paper/scene08c/physctrl_stage1.mp4",
+      "sha256": "85d1ff0e5c20b5dbc4af8f3d3d7f3a2bba8ab1335a574cb8d9d9d41a71a00769",
+      "bytes": 277374,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a55f8500b708aa0978986b0f9d9c05ea9260f5a2b02b98fb8c52bb3b9335e876",
+      "path": "media/paper/scene08c/hunyuan15.mp4",
+      "sha256": "ed4908fa83e629ec4f09da4205ad0624a00cd53c462452476c61d45b88b8ed12",
+      "bytes": 892971,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f4a568135b376bfa46d2d1af1f932359cfe2803ff7ccf60869d09d226a93cd12",
+      "path": "media/paper/scene08c/wan22.mp4",
+      "sha256": "409f6d14be161c50206c17c0a1047c37e2c0dc46f686b4d884492248e7a4e93d",
+      "bytes": 2500911,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d19ed7f637d120a8c777973d73c11e6d0c0ea7a153c9ecd850e07ab74cf4e885",
+      "path": "media/paper/scene08c/cogvideox15.mp4",
+      "sha256": "abf339e01b9b15e2da999863f026e3f937a3a7184586ba79e61a859d003e36ac",
+      "bytes": 1114932,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e844167fe03a8ad30ac126202223e516d106fd8900503b7244e685fd0af28e20",
+      "path": "media/paper/scene08c/draganything.mp4",
+      "sha256": "c47464a9a9645d99987fe950029333e085bdeaacd0780d00b6fd3f2d1e737237",
+      "bytes": 1401150,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "33a4a78f1ac2b6cc189771ddfd459c8f685260d1238a16ebb2b5c6ea93f33bfc",
+      "path": "media/paper/scene08c/objctrl.mp4",
+      "sha256": "2e25dc7e8c46c6d27ba77879d522bd5039c9fc479f8b7f53451a76c775a31a8d",
+      "bytes": 894733,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "911b16cad019974579d41f87a1153202444982368a01a35ce3e21dc37c4bae94",
+      "path": "media/paper/scene08c/flashmotion.mp4",
+      "sha256": "bca786d7cd40991b71fb8cccce3803e8da44dddb000dec61d2ba4e06c0f6192f",
+      "bytes": 2502601,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "dd5f115eaef3afda939826b877023e4732d0c96b4dea6ab2513f3a9e57c50b6e",
+      "path": "media/paper/scene08c/wan_move.mp4",
+      "sha256": "de84e063d6a72e0d9042a01a7aad42edf544104907aa106d8f1fe1f3b9fb3783",
+      "bytes": 3764697,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8dd92efe7d5e3ac737077322c8d43d32182fd64c15f25f235f9b542e625ea09c",
+      "path": "media/paper/scene08c/force_prompting.mp4",
+      "sha256": "3dcd9232a0f86081aeb4c82f57243aa5af358a0277d3acad07e3f2d846394e63",
+      "bytes": 682509,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a1c9bc90b711cbd2e29caad16ef82bb3927a237ac5f73ea5d1c06c32dee73f05",
+      "path": "media/paper/scene08c/streamforce.mp4",
+      "sha256": "0a391ee04a2d5f4347c5ad06d76a8db03dea8e64a7c8c375168856e734150433",
+      "bytes": 1440735,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "632fd33d28954a9bf6793b9a0773eab3bb562cf59702f8ac190c60b295dcd079",
+      "path": "media/paper/scene08c/mpact_trajectory.npz",
+      "sha256": "632fd33d28954a9bf6793b9a0773eab3bb562cf59702f8ac190c60b295dcd079",
+      "bytes": 1092989,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "d6916c8efbe41256d25559826cf642942f78b9bfbd15184e515c5bb0393ccfd4",
+      "path": "media/paper/scene08c/physctrl_stage1_trajectory.npz",
+      "sha256": "d6916c8efbe41256d25559826cf642942f78b9bfbd15184e515c5bb0393ccfd4",
+      "bytes": 535801,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "3d10497f49e231df5351e9e3dd3b683a09c566f467a99ca3da0958c165dfd155",
+      "path": "media/paper/scene09a/input.png",
+      "sha256": "3d10497f49e231df5351e9e3dd3b683a09c566f467a99ca3da0958c165dfd155",
+      "bytes": 465261,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "4f042850bc151d6e297d2edaea3aef77ba6714a6aeb52f22010e95e814944642",
+      "path": "media/paper/scene09a/mpact.mp4",
+      "sha256": "caaff1815b253d219a46b603202ef4b73d117f684b77af4d9d9f2a61963bc42c",
+      "bytes": 290060,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1477932e01c4bdfc24fcbe652ec9434ff47ca5580e72ab781797faa220817b07",
+      "path": "media/paper/scene09a/physctrl_stage1.mp4",
+      "sha256": "d12fa8878c13a0665552ef80267ce495cc9ecd09a90e54ad6c7225e1abb5e51f",
+      "bytes": 348908,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "be81b06237128d434a5e5b4feba1373c6a689dc154cc590521778e722dd535d6",
+      "path": "media/paper/scene09a/hunyuan15.mp4",
+      "sha256": "e1c7335833d78c858621697fcab669a5a77214769c2b80778afa8d6963b53bae",
+      "bytes": 785947,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8fb9421bca361fe649e0390b39c00eff1c37c02caec6bd0013083a06ea9793e9",
+      "path": "media/paper/scene09a/wan22.mp4",
+      "sha256": "189b427711c2dc2888a6d8332b4db545ff95a4eab6c8f2683ce96bfe02cd6f04",
+      "bytes": 2052298,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d5d619d88004bd82fd7b1372be10658831da47db7c64f861a799ec920547d3a9",
+      "path": "media/paper/scene09a/cogvideox15.mp4",
+      "sha256": "cc90d3ccbac1c11c94f5f5ba2cfb89ba1092b031ffb98eeab20e13b25cc4e8b7",
+      "bytes": 1319553,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7aab940f4987a0f2e91b2065bf36b3179d3feaaae78d40e542f79198d8f087c0",
+      "path": "media/paper/scene09a/draganything.mp4",
+      "sha256": "4892df4cbd3f9561748001b2c0d48425680401fd2030a979a04f725e9628907b",
+      "bytes": 1220192,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7db253fe9fe8ffd706272482940ddd30a3b5dea54d9a3404f3e77f5c45e144ac",
+      "path": "media/paper/scene09a/objctrl.mp4",
+      "sha256": "7038e0edff8818a9bbf3a39ce26cb533b43244dffcf51600ab6ef901094e48cb",
+      "bytes": 883143,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9b8c6d301e0330b3174c848b0364eb92571a2849883fcd6ca7187d2db89a94a3",
+      "path": "media/paper/scene09a/flashmotion.mp4",
+      "sha256": "2553509464528c51d68ad75d6c3871b88be04e147a6bb50c83ae4a34936892d5",
+      "bytes": 1948182,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b124d3fa11c32c63e2621ba2a3784d5e860430b353d6ea00cd628745dec052ab",
+      "path": "media/paper/scene09a/wan_move.mp4",
+      "sha256": "0677189e719334d423738d446c19337c6a7ec6327e134e508e41ab69d9f05277",
+      "bytes": 2623004,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7156ab85b77c0f4eafc5b28ee00fb4317ca3aff6932d0408f0338574e3237d9b",
+      "path": "media/paper/scene09a/force_prompting.mp4",
+      "sha256": "e17e718df0e9431448c01d45e693888be63c21c42ab943ff35be393bb0c5e0b9",
+      "bytes": 360000,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "0cb76d90f6c2374bbec840bff1466c84220bcf1472352d61c8a60be9064622cd",
+      "path": "media/paper/scene09a/streamforce.mp4",
+      "sha256": "4d0b9035b45aede014f81c3c5d8706f32434fa9f2fb03c41ae834d0ee95df3fc",
+      "bytes": 1286251,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4ae2f1d31abdaff5496d7728aca3585ce43ba74cc3851e13fed54053f5b3bed9",
+      "path": "media/paper/scene09a/mpact_trajectory.npz",
+      "sha256": "4ae2f1d31abdaff5496d7728aca3585ce43ba74cc3851e13fed54053f5b3bed9",
+      "bytes": 1140878,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "7199753ad51a5813a3de0cc1f82bcb7074eb7056ea7eb7507df51665a6b9321e",
+      "path": "media/paper/scene09a/physctrl_stage1_trajectory.npz",
+      "sha256": "7199753ad51a5813a3de0cc1f82bcb7074eb7056ea7eb7507df51665a6b9321e",
+      "bytes": 560665,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "68dd90a6315834394a3f3c4f746799a0ba7daab9357f30eb381715f51e32748a",
+      "path": "media/paper/scene09b/input.png",
+      "sha256": "68dd90a6315834394a3f3c4f746799a0ba7daab9357f30eb381715f51e32748a",
+      "bytes": 506333,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "f2c5229206330e05c63c9fac08d1dd370e1166f88412d4a4a8d4d9d082c7f71a",
+      "path": "media/paper/scene09b/mpact.mp4",
+      "sha256": "86249bbeee4d8123889352427a1f952270bea5ec53f9395c0046c63bbfe626db",
+      "bytes": 285666,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f1349f5f12cb06088ea5fac6ff5548819c2dc7d2aee856f75b746bc2a575cb5d",
+      "path": "media/paper/scene09b/physctrl_stage1.mp4",
+      "sha256": "bd280b28699ca3380a1bfc9c6c55f4d471fec2dfee3e69fe102aaf3af69cd138",
+      "bytes": 301835,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a3ba74fec84f3d0384e8c316a957587db3b1d65ef3ba9b355c2cd5c90fdc8799",
+      "path": "media/paper/scene09b/hunyuan15.mp4",
+      "sha256": "fefb4981fffba5d012b7a339c48ebf4d86feb6e960126e64a211e1b6007ace5d",
+      "bytes": 923955,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5595b386d13e33adcb7778d0bc281e6b5f48f1d2b432d38f68b99555d3fab7e5",
+      "path": "media/paper/scene09b/wan22.mp4",
+      "sha256": "69f91061c0a247bd7b09e03add34d4e7290c7171df3708a16a7c9e0bcbc7512e",
+      "bytes": 1761935,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cd863a3f1fd40074fabdf90feeac0fb36c32b80dc12992bcbbe7ed8f82f2e9bb",
+      "path": "media/paper/scene09b/cogvideox15.mp4",
+      "sha256": "0835f7e9b8e5a0d6bf2705ee640b641c19463659bb8a226836348b08908b9d86",
+      "bytes": 1013113,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2404f8270bdd126b7f1f03d5d13f28be3460416f4d0fe1bd95b3ec5d8d080dc4",
+      "path": "media/paper/scene09b/draganything.mp4",
+      "sha256": "248f4b8e24fcdca10f600e7bcdd9e892780ac1478317d0454e0541e163866210",
+      "bytes": 1317337,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2664f41c0356ae09b41325b6c5288edaa80e954614b66701137b7f9f8dfad533",
+      "path": "media/paper/scene09b/objctrl.mp4",
+      "sha256": "a1142b9d6b8d0b96843d37d923d53e876f7244e4d544e0eba2041d0afc5a4c17",
+      "bytes": 812948,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9547344b144cb7bd77f007da2789605cdbc15da86864c8ba960de493cb1d2b6c",
+      "path": "media/paper/scene09b/flashmotion.mp4",
+      "sha256": "ce876546115fc9a2ce8bfbc950b54caae5fc331d6a3604fa9809889a16a07d51",
+      "bytes": 2159292,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c85ae1eaee3a1019dae0eb91d30479e6de88a7ac1a81b9e335aa33f3807a04ac",
+      "path": "media/paper/scene09b/wan_move.mp4",
+      "sha256": "bf9adc21a71dee3e63320dba33bb7ff962c09afb9b59522ae5625eaebd99b9d6",
+      "bytes": 2831694,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b3a7158ad57b2c01d866330bfbe9ccd6c05c355555d969fd90ddbcab10b9f2bd",
+      "path": "media/paper/scene09b/force_prompting.mp4",
+      "sha256": "667584487f94a5b6ee1b5f8966c6ff87b2bf90a1a93d461fdd0a51756178efce",
+      "bytes": 370187,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cf11b1361eac19666b6a52ce1488d923d0488509bb350f77a223e35d9985e79f",
+      "path": "media/paper/scene09b/streamforce.mp4",
+      "sha256": "60630e6ea667cc423ed6c81b6f04ae6deb520b6e5ec9507cb1a9d940b12df581",
+      "bytes": 1355900,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "74ba8ab21ff699705fee697026021e52c67a4e302e3c5c4ea57e3d83c5122912",
+      "path": "media/paper/scene09b/mpact_trajectory.npz",
+      "sha256": "74ba8ab21ff699705fee697026021e52c67a4e302e3c5c4ea57e3d83c5122912",
+      "bytes": 1143063,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "c0421eb4f4a34d899798735bbc9c9db9d38f8eedf6066ea81fc622b162b89634",
+      "path": "media/paper/scene09b/physctrl_stage1_trajectory.npz",
+      "sha256": "c0421eb4f4a34d899798735bbc9c9db9d38f8eedf6066ea81fc622b162b89634",
+      "bytes": 556994,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "68dd90a6315834394a3f3c4f746799a0ba7daab9357f30eb381715f51e32748a",
+      "path": "media/paper/scene09c/input.png",
+      "sha256": "68dd90a6315834394a3f3c4f746799a0ba7daab9357f30eb381715f51e32748a",
+      "bytes": 506333,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "d016a9b5d1ee656ae7b5b3df3f04a6079e5150b7f016caaa2ab0f5d58c5bad1d",
+      "path": "media/paper/scene09c/mpact.mp4",
+      "sha256": "23cf57053e6175f6ef8fb9390f2e38cd417db7320187b81101651f21da0f0a5e",
+      "bytes": 362719,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "13ddfcee24fb682f680260ed1d169e7fea0e0185626ca73b016aaeccf265d2f6",
+      "path": "media/paper/scene09c/physctrl_stage1.mp4",
+      "sha256": "a0cc1bd4407d03d37269239721a57c605362e76b7943823ca0b0dac5b788aae9",
+      "bytes": 340217,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "15e5aeab848bd411165815e11808da78d15b77cb326fa98c25fb613f256a6cfb",
+      "path": "media/paper/scene09c/hunyuan15.mp4",
+      "sha256": "b77f8afc751d034969ff8cde917bf77cd7390932177153ed1d126e40792b059a",
+      "bytes": 963346,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a0e75df61a4936c44db2eefcee3fa253667de6d09a2a1d2f01abe66c13845aba",
+      "path": "media/paper/scene09c/wan22.mp4",
+      "sha256": "558a6d98abfbc086dbaf860085d2d259f9983fb4e750a2a1416b09c6a39065f9",
+      "bytes": 2497793,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "033f1fe26509d81ed1aa770c11a6e8c3e254ea668cd2e6bc2f19dfc658c29e3c",
+      "path": "media/paper/scene09c/cogvideox15.mp4",
+      "sha256": "b498fcf120f3500c21a261690c6e5677fc731ab4468eb31cad802c963643e40b",
+      "bytes": 1007974,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b2ad148e1ea807becc1436bedc0ae1f6add52ecef733d4361c4cc7f82b77f7f2",
+      "path": "media/paper/scene09c/draganything.mp4",
+      "sha256": "d480f7a3e779cc1a3796212f094c2aba7a69c5f1696743e87751b3510da6fb99",
+      "bytes": 1410739,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9b2a8d53ad459d3a4c1b3151493ab99de7e53364226c1a1fd40edcbc19cacbaf",
+      "path": "media/paper/scene09c/objctrl.mp4",
+      "sha256": "a7c72949ac48cd3552589b708146bc228c6211378eb5ef3d648ba40d9b2b2692",
+      "bytes": 1187842,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "63c393bdff4ccd898b35ab1da923e989dff83c885210622bb9895628f8d822e1",
+      "path": "media/paper/scene09c/flashmotion.mp4",
+      "sha256": "6f34de3c9d3423d031a04f187fb6e68aa36fa5aa74cb344ab0c428f83fda5f53",
+      "bytes": 1897058,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "39c3d0306d8e7eeb9133bd819497d0d8b2c5a440aa0826d888618d1bfb1ff808",
+      "path": "media/paper/scene09c/wan_move.mp4",
+      "sha256": "eabc20dbfa3737163d4679ab7fe1ada1db8f250c84264f0548a86a98ae30143d",
+      "bytes": 2941029,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4cbf00aefd0f85b5d15a9c26d5dbe3f766523935d6a83ae4843e0f005f100f06",
+      "path": "media/paper/scene09c/force_prompting.mp4",
+      "sha256": "24a52a23e73429a943c69d47dab7ba8e59fe8b415755e56aa78ee6e0291d8bca",
+      "bytes": 363759,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6355a5c87f79e2cdc4945e0a8c66d074e9437f7a1b0defd67438f2e6c012b397",
+      "path": "media/paper/scene09c/streamforce.mp4",
+      "sha256": "7a7b654b9f48a98438f413dce4d4ffb32bf2505bc6acdc7b92bcbca96f677d9e",
+      "bytes": 1367150,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c6f2544eff742d4516b6ed91860ff2a3a8dbd1a933b52bd6b483212ac9be7d21",
+      "path": "media/paper/scene09c/mpact_trajectory.npz",
+      "sha256": "c6f2544eff742d4516b6ed91860ff2a3a8dbd1a933b52bd6b483212ac9be7d21",
+      "bytes": 1145709,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "85fe5507f85ca134d9a354bd47bb0358357a35d95bf202e7fc95601b7d064bab",
+      "path": "media/paper/scene09c/physctrl_stage1_trajectory.npz",
+      "sha256": "85fe5507f85ca134d9a354bd47bb0358357a35d95bf202e7fc95601b7d064bab",
+      "bytes": 557213,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "1c248d32d10d5510579153cf447d7981bc75c50acb183d8bfb6f157b8052bf21",
+      "path": "media/paper/scene04b/input.png",
+      "sha256": "c775bb5191d53364c9a5e50dd6dafc9f26dd9fee230b7460edf3dc9d0c186088",
+      "bytes": 343851,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "74b17d327d6cfb2493a5f2cd40e5916b9ee7c1bc32300a452975b46d525639fa",
+      "path": "media/paper/scene04b/mpact.mp4",
+      "sha256": "362e4fcfeb78169bb7452f47feae5e01c09ca458e5d377b0ffbbfd182d8e535e",
+      "bytes": 115408,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5f34c8a941323a3f0c8fb85c5e2df424fc6857657e025e1a8c231e081e82f0e3",
+      "path": "media/paper/scene04b/physctrl_stage1.mp4",
+      "sha256": "c07f3fffb95f6fb628965807b7eb3706910fd0a471e3f287e83f6c84267a3080",
+      "bytes": 120362,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "471e262f2b0d66948b46fbeff746d550780cd037fe9ca7c6af6414ee5c76d159",
+      "path": "media/paper/scene04b/hunyuan15.mp4",
+      "sha256": "854001f43d75f81f5c09cb6acc4b717bb8bfc6b90878b6190f5108c472a652e6",
+      "bytes": 460079,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d62f21093a94c65e6089ec3e8e3ab29a660d96c54a72adcf68cb54971936a679",
+      "path": "media/paper/scene04b/wan22.mp4",
+      "sha256": "cee66639fd6a8f8cfd75e27e890984e4ab43323293eaa10c8fa2bd4bd05b3d67",
+      "bytes": 1509418,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cc2f80a0d27cbf675109022a010aed76e847c49cda1fe0c604bd0b95c4cdb671",
+      "path": "media/paper/scene04b/cogvideox15.mp4",
+      "sha256": "a9998f67eb811e66b4bd0eab01fd7a097d493f2c1a498117cca062abf5a6d42e",
+      "bytes": 870384,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ba96d8f67dc837be83646c511af8f37fe69519962b7dc8182622e94450a5174e",
+      "path": "media/paper/scene04b/draganything.mp4",
+      "sha256": "7a4b26b7efbcd284676153cd56e292fd96c64adfa79c7fc312a91bd2868b3bc6",
+      "bytes": 850551,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8facc0a1f8db9c31a20da8e01af44472b2c3328dc957d6fd9c7d1f5adaf40070",
+      "path": "media/paper/scene04b/objctrl.mp4",
+      "sha256": "a8b0bdc4cc2eb29a4b6903060beff707551891cbb439350284084c80f6c17c13",
+      "bytes": 708668,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a77df39b3873f36c2cd33d619ac659495991cb5dc8d477726277ac01aff4c639",
+      "path": "media/paper/scene04b/flashmotion.mp4",
+      "sha256": "8859a9f656b8b03463275236b9ae29bb647f1f426bb29799cfa0ddcccd6eaa4d",
+      "bytes": 1113498,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7c714e9a9d259b856cbe75beb5059222fc833a86801179639eaa120633a4ef05",
+      "path": "media/paper/scene04b/wan_move.mp4",
+      "sha256": "0b0434a32fecb63e847d5ce87de9b157adb636d6af13be47ae2806714c921da8",
+      "bytes": 949945,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c7d4530f0c296a937400d24a9d0d62cfa9d3276b42986b74e2211ad6e9bb494e",
+      "path": "media/paper/scene04b/force_prompting.mp4",
+      "sha256": "cb25a3fcc62a3dbd58369110989a48331af1f2ef96fa72168b77f7f5d93de50f",
+      "bytes": 256447,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2934a5039ee93fe7f9ec6576a468c6ab6a7eebcb948fd25a0c1268f9309cc5e3",
+      "path": "media/paper/scene04b/streamforce.mp4",
+      "sha256": "2679f3e8b85738e7fd8daec6a26839722c258e364718c536fc7ca4d35604a860",
+      "bytes": 1022452,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "15b07453e55532b55a9d1d5bb0223ad168667e3ce8168db2542d167728548925",
+      "path": "media/paper/scene04b/mpact_trajectory.npz",
+      "sha256": "15b07453e55532b55a9d1d5bb0223ad168667e3ce8168db2542d167728548925",
+      "bytes": 574223,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "393723d36201df1d71a4bea32e12f00a0c6b549aef23587fe0b89d7623656f60",
+      "path": "media/paper/scene04b/physctrl_stage1_trajectory.npz",
+      "sha256": "393723d36201df1d71a4bea32e12f00a0c6b549aef23587fe0b89d7623656f60",
+      "bytes": 575783,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "8e04fbe579167df48304de7ba1a0cb67bc057a4d6d1506c6135d2a9b3323dfc4",
+      "path": "media/paper/scene04c/input.png",
+      "sha256": "8e04fbe579167df48304de7ba1a0cb67bc057a4d6d1506c6135d2a9b3323dfc4",
+      "bytes": 330999,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "f3ab32f21e81fa45abb81f4461bc50d2d7dffeffda60ff0c1679ef9e77e68aad",
+      "path": "media/paper/scene04c/mpact.mp4",
+      "sha256": "82a46ac6ff9a276b6202460be01ea907c2cdecaba997eaf8ef2c1d434853e43b",
+      "bytes": 122280,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ec7d2ba546efa325fb592c07196a0b25797811ed19ac7cbac1a80973d2d81316",
+      "path": "media/paper/scene04c/physctrl_stage1.mp4",
+      "sha256": "682fd4de148317cd20e34638b402331ba9776c94b338872328cd5c1c262bcfb3",
+      "bytes": 103495,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f08cc236ea3f6e0e6a90671cfbc53f1cd55a8d89f39c2b1c9103cfb87b00dd2b",
+      "path": "media/paper/scene04c/hunyuan15.mp4",
+      "sha256": "c7f2c826f372ec55df7fa12494a5ea1bef0136a77cecb3d3d28c07b581b9c801",
+      "bytes": 517690,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "42e362ecc6e858ce59f367d58fb6e22f2c4374ea0c397fc9e59448d46d48ac49",
+      "path": "media/paper/scene04c/wan22.mp4",
+      "sha256": "50c5f97ba2ae41fe2881aa15927548cf9f196552c8fddf89ea6fae443e3d9712",
+      "bytes": 1360981,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9bb5c22b3c7549bd010d4127e61b910544969bef48bc9ef27a2c26106609e366",
+      "path": "media/paper/scene04c/cogvideox15.mp4",
+      "sha256": "a0ed8590a9e2ba7fb848ebaadd42223b244be5cdf5b9ece962c22f9d875d361d",
+      "bytes": 798517,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c0afa84a597fa07d1e27b6c05620b92d2dc6352ef23d05e3ee12ba8ecf8af56a",
+      "path": "media/paper/scene04c/draganything.mp4",
+      "sha256": "d76edaac294ab2cbb18331d54ee2c82238b871aa5fe82e6a99b47f30861aa340",
+      "bytes": 813775,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d08b4e0c6d2a3aa6d0548f49dcf04a09605d7a992f927b5e4990aa1c1570e7f8",
+      "path": "media/paper/scene04c/objctrl.mp4",
+      "sha256": "57664cebf1c661412c1cd4ee959d8ff6ec0c58e4d44752f203d7ea267aa9ab54",
+      "bytes": 522995,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cdc89e45219272fe16967297b7e6cfab9cf4c0c90c933432e4a052d79dbc81d0",
+      "path": "media/paper/scene04c/flashmotion.mp4",
+      "sha256": "6ea1ff3edf63fe19bb8c81eaefccc65b8688103a71017ac209f2b7dca57b1250",
+      "bytes": 1100622,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "20563de122a94f7d518ff15d24ddfdf3105e9bfb555825ad1596b839201d2185",
+      "path": "media/paper/scene04c/wan_move.mp4",
+      "sha256": "51578e388c02f342d4021191b63071f96cdf173e3428d196580da5930ab8411e",
+      "bytes": 1249968,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7728702743d3cfd60d0ddc03b8c31813eeac597b22e349ec5990b59b475f7784",
+      "path": "media/paper/scene04c/force_prompting.mp4",
+      "sha256": "d421d63fa5a98abf806bd707a70dfb062f324bc7e4ca82b8d8ea029400960377",
+      "bytes": 286652,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "34a3d392c1018c94fb54367c9e0b4dde1ba9eaa232b183b3012711c08d834b8c",
+      "path": "media/paper/scene04c/streamforce.mp4",
+      "sha256": "91e90301494b610e9d11c65df9538be5026e2d83a5a21f54388156d02286b3e3",
+      "bytes": 751973,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7da31756be61d8b958f9a9517ddb292ff96edca4f7818ff7e1b2bf07a03de5ee",
+      "path": "media/paper/scene04c/mpact_trajectory.npz",
+      "sha256": "7da31756be61d8b958f9a9517ddb292ff96edca4f7818ff7e1b2bf07a03de5ee",
+      "bytes": 574651,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "f02245e8ef4b99b6cbb9f78d34976b43bdb148c8cc41ab7c496583eb27da1771",
+      "path": "media/paper/scene04c/physctrl_stage1_trajectory.npz",
+      "sha256": "f02245e8ef4b99b6cbb9f78d34976b43bdb148c8cc41ab7c496583eb27da1771",
+      "bytes": 578176,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "da843ba866d249bb8db4c6b3ade67a1d189c560ae16ad7b2b345bd4f523bc3e8",
+      "path": "media/paper/scene10a/input.png",
+      "sha256": "da843ba866d249bb8db4c6b3ade67a1d189c560ae16ad7b2b345bd4f523bc3e8",
+      "bytes": 421979,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "26a3950fa2dff8a0c422e01c2613938b790e825b6a9735bafd553ad2c96dffdd",
+      "path": "media/paper/scene10a/mpact.mp4",
+      "sha256": "a2cd9138c8a4428e643dfc1b396b4eef95b0e5d70b6d0ffb12667be6669a3db7",
+      "bytes": 117148,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3a0918ec48d53042af0090a348f88cf19ba902de49031c8cdec18480b314e4e9",
+      "path": "media/paper/scene10a/physctrl_stage1.mp4",
+      "sha256": "10afb7046f66cabacf914bd6a03b29892eb2a21b582e19f4e259da7dec50926d",
+      "bytes": 112083,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "dd2a87099b02003a2861d0e4360aafe00371b7513c99dbd6b795cd8ffce98b74",
+      "path": "media/paper/scene10a/hunyuan15.mp4",
+      "sha256": "0373ca56b2366d79875386c474db9b9eee622d777a48935e6dc5184a4fbb7eae",
+      "bytes": 547833,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "55b8a1bbb92de4d0a129395420e6965458ba6330e265abc1a9be5c8e86be3aaa",
+      "path": "media/paper/scene10a/wan22.mp4",
+      "sha256": "1d2377a7efa5002999fd4c3f71bb1bf54b026516ba4312a16ae77d95c4dc18eb",
+      "bytes": 2194310,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4e9388a15133bb8e8a00a8fa9724a5b38a28912138fcfdcb638e6ba3f99af64f",
+      "path": "media/paper/scene10a/cogvideox15.mp4",
+      "sha256": "3baf0e76dd50b2a7763c0987dc1814f9a6cb90346e9c7c27fbf231c5363517ed",
+      "bytes": 764581,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b55a46d347c4898798a03b5340221b1f083e74a7031a735877d5be9cd549d0b4",
+      "path": "media/paper/scene10a/draganything.mp4",
+      "sha256": "5cfeba6028c3a87f1121fa03481635e008c0960586c7f6539dc2da87bf5719dc",
+      "bytes": 1078663,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d2913dbc03e0718f28e8e2943e109d1bb74f1862705a4f92d8c4a5099e857f37",
+      "path": "media/paper/scene10a/objctrl.mp4",
+      "sha256": "d6238b5cbcfb095d043225fbd5cae8bf2cad5acbef249355e974d6b501cbd3ab",
+      "bytes": 585628,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "05a2b0f829713681091896a5939ead6c2506063070514cda24d0371ae652e1a6",
+      "path": "media/paper/scene10a/flashmotion.mp4",
+      "sha256": "59c18fcaf9ab2bbf33f903775285b9e80c11e0a487a23a92b4abde9efae4121d",
+      "bytes": 1905351,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "865d5d6b79f72f20f8f4b0e54aaff80900b1f1f33b6e374ac64004d46a0025cb",
+      "path": "media/paper/scene10a/wan_move.mp4",
+      "sha256": "d0a589b1b7c4f1a3db34edb7e5355a3b7fabc3548f2d780fe1c9353346d9d4f2",
+      "bytes": 1934983,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6f2ff81225ffaebbefc7c2fb481d8881ca4b33a4d91c103a56dc06fbd7559a5d",
+      "path": "media/paper/scene10a/force_prompting.mp4",
+      "sha256": "95642c1740bb067f558c43e252e00816f9452600b5458032003d786b32ecc3c6",
+      "bytes": 352603,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3fb6de849bd5515886fd77211f2b43e17c62800c693ff8b16fac89dad89503f8",
+      "path": "media/paper/scene10a/streamforce.mp4",
+      "sha256": "5ab2f022fff52f06eaaf37db638dec21fed0ce7406da41b59c66adaa330676ed",
+      "bytes": 1171659,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "65325dc0ac1146d67ffd1d421a82e7212b5ed044971bd7985f8b3cdf06eb870c",
+      "path": "media/paper/scene10a/mpact_trajectory.npz",
+      "sha256": "65325dc0ac1146d67ffd1d421a82e7212b5ed044971bd7985f8b3cdf06eb870c",
+      "bytes": 578493,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "2d70c7127a7e10bf1cfad00e3ac9736e94b501b15060fbece2767787aa598afc",
+      "path": "media/paper/scene10a/physctrl_stage1_trajectory.npz",
+      "sha256": "2d70c7127a7e10bf1cfad00e3ac9736e94b501b15060fbece2767787aa598afc",
+      "bytes": 573400,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "508fb19819b5ecde0717cd9031a99668872e5af91c28183c4ce1f34708c4fc9b",
+      "path": "media/paper/scene10b/input.png",
+      "sha256": "508fb19819b5ecde0717cd9031a99668872e5af91c28183c4ce1f34708c4fc9b",
+      "bytes": 590535,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "8f7a0074e46ada5259adfa92c686cf3d69ee2bbd4a21d4ffff336641e338a3ef",
+      "path": "media/paper/scene10b/mpact.mp4",
+      "sha256": "cf0bc7e1e40f013a7688b817891940d2bb86d5b6c47165fb0489dc4f1b65d1a3",
+      "bytes": 257964,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d23ea76cce351695ad1aea12caf519c84f8d027673bf44fc626ee52e90e41422",
+      "path": "media/paper/scene10b/physctrl_stage1.mp4",
+      "sha256": "c04fda80117708aad108355187157f3f45e6b2a958f47163ec23a39210ca639b",
+      "bytes": 249004,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "93fecc20aa56458387e56385030ec67b9e2e6f67450f257854564868bed7897f",
+      "path": "media/paper/scene10b/hunyuan15.mp4",
+      "sha256": "541bc3bdc6406a1963fb48d9946d0af3b97d97a1c6b689bc3a6e8729f0f83004",
+      "bytes": 909312,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "87e1c57ee6e777d824bdb728b879781bab4c9d42c072c170b95aae78c7efa442",
+      "path": "media/paper/scene10b/wan22.mp4",
+      "sha256": "752a030b30b25d98b4627600bca64cf308a3706cd7a4770e6fa3fbeb460fc587",
+      "bytes": 2848361,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6c0b920779c94e3db3369662ea16aaf3c23f810726fc8bd9fbce33f43b8ff3db",
+      "path": "media/paper/scene10b/cogvideox15.mp4",
+      "sha256": "73154c25b712b846df0278e17a5b192f85e02148481d3c67b25507e107a432f7",
+      "bytes": 1798272,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7494b09bd2fd01b1dc5df9519854286b864e5e6aebf8a7a22e91d7cfd70d7131",
+      "path": "media/paper/scene10b/draganything.mp4",
+      "sha256": "ef4e800a6042b6012dfbf7b25bb3eae927db88864c8a59b3d7544b0c494db20f",
+      "bytes": 1623668,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3004d9094e763607fddde89ff2a99fb2f69f2c66e71386f06ac454af9999a66e",
+      "path": "media/paper/scene10b/objctrl.mp4",
+      "sha256": "9da43e6012c8c8b34fc759e38514c9ee634e05b22ac4dc7def32a6c1a80ce9af",
+      "bytes": 724310,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b66eb49471f8571ff4814941718b897f38761d39076f71322e42817fcdc1d557",
+      "path": "media/paper/scene10b/flashmotion.mp4",
+      "sha256": "646befede03bd076c24370a54e04171c220ae71be29eab14849c434d95f26c57",
+      "bytes": 3161642,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c45e1eb83a6b90d600d2302f3406b12e9ad56201adfad0b8bc73c76ae37839d6",
+      "path": "media/paper/scene10b/wan_move.mp4",
+      "sha256": "2742f5b453efbf1c6013d440edd936be1d31fe6c3fb5621499750e6bb11ccb09",
+      "bytes": 4603134,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5480f17e0b82158f6f6d6c80a7c520b87b51be1f1eb6143dc4771e9cf4c2d435",
+      "path": "media/paper/scene10b/force_prompting.mp4",
+      "sha256": "366d4f95dc986ef3407cad2cfb994c86f973035077ed4242d719566985becccc",
+      "bytes": 568385,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "562ab06cb7292ea6f93531be0000b760da7b4b09096c22c9b0708aaa7cb9100c",
+      "path": "media/paper/scene10b/streamforce.mp4",
+      "sha256": "7693eb626de31fe3f4554e76dfbf36cccae99626fe0fd3cd51339d6a29207640",
+      "bytes": 1960481,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "350815fad8aea863dad0f35a099e8fbb6ce94bf54a4282db4f8f09525794bbd2",
+      "path": "media/paper/scene10b/mpact_trajectory.npz",
+      "sha256": "350815fad8aea863dad0f35a099e8fbb6ce94bf54a4282db4f8f09525794bbd2",
+      "bytes": 575051,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "bec996bd702985fe79625b8119770b080db65da9902f164d12ce3da828b80d96",
+      "path": "media/paper/scene10b/physctrl_stage1_trajectory.npz",
+      "sha256": "bec996bd702985fe79625b8119770b080db65da9902f164d12ce3da828b80d96",
+      "bytes": 577457,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "ba8f1bfc98d710c8c7bec060e1992fd9a7ae98dec35df90e340b308afcee66cb",
+      "path": "media/paper/scene10c/input.png",
+      "sha256": "ba8f1bfc98d710c8c7bec060e1992fd9a7ae98dec35df90e340b308afcee66cb",
+      "bytes": 484414,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "ff30a0c6f1672b539ca2ac40cebf07a709b0398d79d0c57fd9034b9290e9420b",
+      "path": "media/paper/scene10c/mpact.mp4",
+      "sha256": "e1f21cec71b1d2cb4d494b5310c2053d1de5b4ea09253fc3f996beb97794980e",
+      "bytes": 197503,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "0b103bd83cb2d0823cc074c4a9fc60fe2a28b4931755b1b0ff8a334ee3f42d15",
+      "path": "media/paper/scene10c/physctrl_stage1.mp4",
+      "sha256": "4cb9e5f12effe298b85fa7974abc423f3f822cba0f3d8c65923b995b931fe6f8",
+      "bytes": 136561,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b930bf6266fd3c2587df1003595f02f970f572b066f54183824a297d8b448850",
+      "path": "media/paper/scene10c/hunyuan15.mp4",
+      "sha256": "760a2d024282508454ed7eeca6d9ec72ded66a899d5258e073930bcf7b8e3293",
+      "bytes": 547208,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "856bfae4e5ba0fda3ac5d3fd51bcf1f6156133e7fab69981f17e0062e3f9725b",
+      "path": "media/paper/scene10c/wan22.mp4",
+      "sha256": "cef4e8fb1bdfa0f3ef0cda379df0feea0b667a9fd2f85d192986d45279081264",
+      "bytes": 2359845,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "bd28572b41bfb76efa81a922202801f0f621654760b8d965947212bb636f16ea",
+      "path": "media/paper/scene10c/cogvideox15.mp4",
+      "sha256": "0be87112054b7c118c7ac63bad546b6d006ef5ca378a5eada3db62331b208144",
+      "bytes": 1127047,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6d9d08dba1470c3c792b4f849db6890a18545295f179b750a8af5ddec8802dd2",
+      "path": "media/paper/scene10c/draganything.mp4",
+      "sha256": "7984a736b691721c95d7b0b1a73a1692f3950b298213e4e533751f68e7a92f16",
+      "bytes": 1088150,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ea327ca0644a8d1576adf04dc96abbd7f1908db458c1da2050567ace5d4dec5c",
+      "path": "media/paper/scene10c/objctrl.mp4",
+      "sha256": "290b2a8be729dc3f5c31d1d7e5f03d6898e1c41bffa0a45e37abe26320c626be",
+      "bytes": 568972,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c0e154d8c01c66315f126ce0c429fb890e7e41d7cdd81d932832dbc4441cfa74",
+      "path": "media/paper/scene10c/flashmotion.mp4",
+      "sha256": "af131a387308fb522f3e9be31d491a05a20407f898cfc2b51090859b9d82cd8f",
+      "bytes": 2182108,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2b10ba85074bf69e7131ce9c9770be8a4c1dbd0814536e4706f5a03f5802e9c8",
+      "path": "media/paper/scene10c/wan_move.mp4",
+      "sha256": "d5d9693f0a3f8e9f13d70ba0c54922f1de41fee33ade29cc1ffabf39bab8677d",
+      "bytes": 2648118,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3a6d939fbe6c90453f1d8462389738e5cf1bda84c30bc30e24e78b368f3ff34a",
+      "path": "media/paper/scene10c/force_prompting.mp4",
+      "sha256": "3675ffd5b914262b5bf66d898c3411bec47efb28bf0d1de2652a279cb4d44743",
+      "bytes": 433021,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c6055a57bd6e4e2553a1ed74e8ce887647e1c45e9b55c6288aa4032b7bddcdd2",
+      "path": "media/paper/scene10c/streamforce.mp4",
+      "sha256": "5a021e8a15856a8c714649f88eda0dd0ec499d9fecd1d4d65fa57d433620df70",
+      "bytes": 1284197,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "033f93c3c11f06fc67923b1d5bfc1731c4fdd0159ad0a65c47bcb9ef1e38c3f9",
+      "path": "media/paper/scene10c/mpact_trajectory.npz",
+      "sha256": "033f93c3c11f06fc67923b1d5bfc1731c4fdd0159ad0a65c47bcb9ef1e38c3f9",
+      "bytes": 576205,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "b1860e9bb582c979a623fa1f07bf144da27088beb38545301231b5cb18f4387a",
+      "path": "media/paper/scene10c/physctrl_stage1_trajectory.npz",
+      "sha256": "b1860e9bb582c979a623fa1f07bf144da27088beb38545301231b5cb18f4387a",
+      "bytes": 567379,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "9b9320d873f65b1156470b4b39bba4f0ab7083dfbe63dd725ee2e648afb0377b",
+      "path": "media/paper/scene11a/input.png",
+      "sha256": "9b9320d873f65b1156470b4b39bba4f0ab7083dfbe63dd725ee2e648afb0377b",
+      "bytes": 419023,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "3c47ef9f1f7daf571763acb51777a9c251b671574aa8d40a05928be44ae4a20f",
+      "path": "media/paper/scene11a/mpact.mp4",
+      "sha256": "1801a15b3698abcfb08f33359e62e56f252c76af6c9a422248bfc8a7b4a54d41",
+      "bytes": 111724,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2e2f16e7c1b2be83a0c129da981b4b05499c30b9b431a94eb540f3cf4d39a076",
+      "path": "media/paper/scene11a/physctrl_stage1.mp4",
+      "sha256": "b5df53ffba2336636452b6a685e5dcb92872e487d58f7ab5615358f770b3999a",
+      "bytes": 116850,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "fcdef0fdd94f2ea7a86abf27bf5d5cdc73a073fd7e0f85e6e7f600fd5d10708f",
+      "path": "media/paper/scene11a/hunyuan15.mp4",
+      "sha256": "368c83ddb3ae1e7549616e20b952db1dd0430a90b718b9eae75165183e50357b",
+      "bytes": 504022,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1154e01b42d3ac6d1b80c4e4178453cf750a3744c5d9b7a3916cd45f2387f7c1",
+      "path": "media/paper/scene11a/wan22.mp4",
+      "sha256": "f9950f6c1894dfa5c29d8e0434cf52ceb16575bd28d40ca1b99c472e28f7315b",
+      "bytes": 1972971,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b56036e000c7b3b5ca15dc2ff438e9b422dea4dab54fbe0b0d50b1e28e38d5c7",
+      "path": "media/paper/scene11a/cogvideox15.mp4",
+      "sha256": "94cfcbfa1b768a8320e290cdbecf7efc09404c8922a6c25dd3f8c72015941328",
+      "bytes": 1119448,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4d244ec525505a286d41538ac58b21a2930a38af3c63e62a5d999d71ae6c32a4",
+      "path": "media/paper/scene11a/draganything.mp4",
+      "sha256": "1fccf83652eeba47dffb998265bc4248b0959e7e6efe91798ffa86ea3aad4e56",
+      "bytes": 870830,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6d1d6e3f7c37f0892e10af4f9ded13421cde6517aaba127a7e5c6fa989c3ea6b",
+      "path": "media/paper/scene11a/objctrl.mp4",
+      "sha256": "ff8eb734f79043c1f00f4df7e181024614655e1284a4c3f5b881231cb8f180d0",
+      "bytes": 588661,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "011b024280a46cbe538a1f39665d3a827402b63322d4e500fd2b40c38398540c",
+      "path": "media/paper/scene11a/flashmotion.mp4",
+      "sha256": "e7f4ca5829d4df1654b8ae6c818e2449f33b4d0018d7bfd316d3151614aa988d",
+      "bytes": 1551958,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1265213a1c9206ef7567cb5d41072f71451504a92b35b2f4158cc2df72985036",
+      "path": "media/paper/scene11a/wan_move.mp4",
+      "sha256": "d1b2400f0ff652fe930255a2083a3adeccc95dd1bc6a6e13ce3f191ff966141b",
+      "bytes": 1863383,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "bb34f1bc71020e9d974def2caa1cdad637bf794b0224d3bc7318c61d5846864c",
+      "path": "media/paper/scene11a/force_prompting.mp4",
+      "sha256": "f0d8ca77a02d7440e4764b6d165f67fd14b4fb36c4911045e49b862e2ad5c5b5",
+      "bytes": 398370,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "78a57fdfcb4516a0ef490648f0b9e561ac4644633608ee77e6f24a6b2dfdc9ae",
+      "path": "media/paper/scene11a/streamforce.mp4",
+      "sha256": "59bb005799b3fa12de4f6e08d693f61d9bbc4775ff8d7a8cca08cf2edc120129",
+      "bytes": 1076419,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8cf14591f3cdf9733d43d2bf491985b0d14f8739a92767affbafe3cbdfe33473",
+      "path": "media/paper/scene11a/mpact_trajectory.npz",
+      "sha256": "8cf14591f3cdf9733d43d2bf491985b0d14f8739a92767affbafe3cbdfe33473",
+      "bytes": 576662,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "ee89da72ff619c369f8c7890c5be6a3fa5c6682e0d33dcb420b666c08523340d",
+      "path": "media/paper/scene11a/physctrl_stage1_trajectory.npz",
+      "sha256": "ee89da72ff619c369f8c7890c5be6a3fa5c6682e0d33dcb420b666c08523340d",
+      "bytes": 568013,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "20f8ecab863e7a6f3898fb37868b500764d775d6c8a85f2905123cb801c75abb",
+      "path": "media/paper/scene11b/input.png",
+      "sha256": "20f8ecab863e7a6f3898fb37868b500764d775d6c8a85f2905123cb801c75abb",
+      "bytes": 389892,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "e0d4946da661469160503ff0cad1e08013c785cd3bc5ef0b2a98876785541018",
+      "path": "media/paper/scene11b/mpact.mp4",
+      "sha256": "2ee4531a8cea59ce93f09c4ce58ba1d0ab1fc780cde3e4ff23ab68f8ff78a64c",
+      "bytes": 111140,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "0f9b89995e4d542f4fb4a1a1467ca3cb736a23c875179a8d66a2e1c530da01e9",
+      "path": "media/paper/scene11b/physctrl_stage1.mp4",
+      "sha256": "6bdbafcdef08d15dc3ad169ecf9d43595aed6fa058b4939acc8f24c2c400d884",
+      "bytes": 111074,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d0ea6bbf3197d3f883ff33d30fa2a3126c8fd9de080858c63fddcc15217afb0d",
+      "path": "media/paper/scene11b/hunyuan15.mp4",
+      "sha256": "710cda77df256269f587300f08dfb63d4a8a34546b51ede65086356073d7f4fb",
+      "bytes": 509650,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "40433eed8635a174c52319b5f54608b798417cc11e40f7e73b7ad31a9742e79a",
+      "path": "media/paper/scene11b/wan22.mp4",
+      "sha256": "05afa8f297b179db8d38027d922547b236d8cc89271dffee60511fbd75344ed4",
+      "bytes": 1386818,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "39eada125e519c33b2d11863afb34def33ba8a536c34df2a3d0da8b57759f552",
+      "path": "media/paper/scene11b/cogvideox15.mp4",
+      "sha256": "162e8d810f9df495d23de4a5903b0d93673ea39b6e82cb060312a9f83059cdee",
+      "bytes": 1034315,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9d0115d5a050ec0f50db7b3ac3831a51ee8a1368c2988c6cb43fc52f6ed51fa3",
+      "path": "media/paper/scene11b/draganything.mp4",
+      "sha256": "a963068f3bf53f9d15127246a87308e9019f05a78eaf89dfc5d0f5a115906ef8",
+      "bytes": 828269,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c13a5abd288cf9fc51a9a52e684647f575b63c6d52391932f92f81092f3fd74b",
+      "path": "media/paper/scene11b/objctrl.mp4",
+      "sha256": "5a3bd4f49663fbf284e2ec205445d7d1d29b864f9e2cf91afc625e04fc4ea08a",
+      "bytes": 257849,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b39c289fe6bebc80217fc048834e5345e40a264c688352cd8671c24ec2e27240",
+      "path": "media/paper/scene11b/flashmotion.mp4",
+      "sha256": "cc21e74633d7aa1e42fb1416b2af66d462f90888aa4cc986789c1d0258696320",
+      "bytes": 1281064,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ab74584abb44fa85c523b4a11527b4712fcd6ad9db3714c38a3b0e815c29318c",
+      "path": "media/paper/scene11b/wan_move.mp4",
+      "sha256": "8cc6c4a360f00f55adc93b2722c3925a3e9c6039b2ba7bd60f7cd1c954c05df5",
+      "bytes": 1302580,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c54f6612103f2ce9b0a3698758a303ec4df5850d5689f4392f237485893cb791",
+      "path": "media/paper/scene11b/force_prompting.mp4",
+      "sha256": "7cf1eccd5f84e57f5970a508a3df3ce5efce6cd310e71c35a8cea0684241aabb",
+      "bytes": 273820,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "08d8f5bff0f86f34eb8d03e5bc940176d94bf3326bf532eda160acf740a54c39",
+      "path": "media/paper/scene11b/streamforce.mp4",
+      "sha256": "69461024fe3032f03642e82b9c6e77940a2d51ca63e92566862193db40604d49",
+      "bytes": 737190,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d85d643283a8d74b7cb015a5a68e535a08e2370e5bfb4b354b74f78fe2f08908",
+      "path": "media/paper/scene11b/mpact_trajectory.npz",
+      "sha256": "d85d643283a8d74b7cb015a5a68e535a08e2370e5bfb4b354b74f78fe2f08908",
+      "bytes": 574938,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "dd543ee8b4c10901eeb470b309a916dd5e9a5e7918347fc6a8139e969b2693c9",
+      "path": "media/paper/scene11b/physctrl_stage1_trajectory.npz",
+      "sha256": "dd543ee8b4c10901eeb470b309a916dd5e9a5e7918347fc6a8139e969b2693c9",
+      "bytes": 575980,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "eec6d095c3a8d7262bafbb5231ab79b2ede040efd5fa1210ade701fcd08e4d7f",
+      "path": "media/paper/scene11c/input.png",
+      "sha256": "eec6d095c3a8d7262bafbb5231ab79b2ede040efd5fa1210ade701fcd08e4d7f",
+      "bytes": 616035,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "bb62377806af4647cdd0ad8c4c58fb7ceeddd20e296b09ea7a682c81b15f5813",
+      "path": "media/paper/scene11c/mpact.mp4",
+      "sha256": "f342c94b797f31f4a40914e44a4f0fc052fb73d15f7c3582a24c9474b113995a",
+      "bytes": 245208,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "444878019ebb7caae6ed9021b3758d71f3833aebbe8f5f331aa7b710ca1655d0",
+      "path": "media/paper/scene11c/physctrl_stage1.mp4",
+      "sha256": "c5b5e4503537e9cd48ada7cbe007cfe84e959896c0ba7ef9350e9c03282ba6e4",
+      "bytes": 229061,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2d72bc3741726c866e970d4da859cfe5907085f6e3554fa5c0f98559c7c14aab",
+      "path": "media/paper/scene11c/hunyuan15.mp4",
+      "sha256": "3eacc1abf566a38c355590e0775773c95c9649968c42ae934e899193f49686a1",
+      "bytes": 914060,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e4724ab2b5a7c8ebcf781a9a446522e393ebac341b11efb2e913e3011c53c536",
+      "path": "media/paper/scene11c/wan22.mp4",
+      "sha256": "76ba7c5bcf5bf055cfc918288481d1a1d57c8c54a16c09c4a8d894b9ee266c2b",
+      "bytes": 2454968,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b0b1ab76f822065a73bfaa22600d67c647fb6c0c378b75611936295b6ba6844d",
+      "path": "media/paper/scene11c/cogvideox15.mp4",
+      "sha256": "3db4da86ebdc57a08e6e132f5d7d8d2885f468824ca6fdc6a26719b7321e733f",
+      "bytes": 2601990,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "72140ae2f178d48053294d55d5920555d8d51e6ca4e35c669313ec78ff0b8392",
+      "path": "media/paper/scene11c/draganything.mp4",
+      "sha256": "c3a7d884ec3b9045d100c44fbe9bf6169bfe141fd713f4a2d6660c106cbe9217",
+      "bytes": 1733568,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "35586233e500179357ab0b777b1b3c9d80ba75cae292eada177da2a667d6d773",
+      "path": "media/paper/scene11c/objctrl.mp4",
+      "sha256": "c70499ffe4bb03613c741b8bedd1fde390d7dda1e3e6126b2c806a7c9ee80935",
+      "bytes": 711250,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e178215a56dc7bfb04a9d4d5eac7c98cf3d430c19c857284bc7f54700f754f31",
+      "path": "media/paper/scene11c/flashmotion.mp4",
+      "sha256": "5597b5febe8a5da3ce3ebe0344054c54fd669b699b0125dc38b0ebb935b76b92",
+      "bytes": 1971884,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "bec55029ddefe2c11412a2bd835c37ea0ad75884aef4b3d5cf9d5c2845f0fe6d",
+      "path": "media/paper/scene11c/wan_move.mp4",
+      "sha256": "1afda2cc95252ab49e0e9ba88c45da96e5ba98af7d15eeecfa359f0fabe53433",
+      "bytes": 5141544,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "59392f54321b4a65fd0a6142c650af21a3fc1b64b1460f7d1f428e7304ef6fbb",
+      "path": "media/paper/scene11c/force_prompting.mp4",
+      "sha256": "6a6ed9ca56e7a6856c70b8fb9916075c6fa89deaa639ae33c53b833ad721dd32",
+      "bytes": 546926,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ed4f04611869edc228c0a30df54689ebfa4154d1a9c86c51b45e511ee69c027f",
+      "path": "media/paper/scene11c/streamforce.mp4",
+      "sha256": "3aee6fefbcff35f0fe224293d37a3fc7f1eedbc492457b0429ced823c4e8c01f",
+      "bytes": 2032372,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9cca490ee33750cd8b4f7bae5252ae603afdde392259def964ed5bf42f82a3de",
+      "path": "media/paper/scene11c/mpact_trajectory.npz",
+      "sha256": "9cca490ee33750cd8b4f7bae5252ae603afdde392259def964ed5bf42f82a3de",
+      "bytes": 578227,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "0c4457fb3c070726b3d96d50601c643b72dba55f3c6dbb8e2ab0019b9b206312",
+      "path": "media/paper/scene11c/physctrl_stage1_trajectory.npz",
+      "sha256": "0c4457fb3c070726b3d96d50601c643b72dba55f3c6dbb8e2ab0019b9b206312",
+      "bytes": 575732,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "f37761b865d3863f331f0d1ecbccf09d95aed513e606b730343f386a394f05e8",
+      "path": "media/paper/bear/input.png",
+      "sha256": "f37761b865d3863f331f0d1ecbccf09d95aed513e606b730343f386a394f05e8",
+      "bytes": 471240,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "6c31e23e1851bb5cf4a4c6f530daa3ebc11a20fd71320ddba4d4198757c2452a",
+      "path": "media/paper/bear/mpact.mp4",
+      "sha256": "b0d7297c35e39299810c617b51eb9a33b979d0c18a5741624bad890f0a0e28f2",
+      "bytes": 186902,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cb1076d2342d7deebcf39c60a1bc93fa7240cc287c4e3c70d9ad6bcc0a410cf8",
+      "path": "media/paper/bear/physctrl_stage1.mp4",
+      "sha256": "2036eeda66042ca0a6944a82bf2fcc33039152ec118c86a55a52ad5c2c068070",
+      "bytes": 183305,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3eb3c98c2a291be1598141141d159a92122334d06e54c06e76e02797ec8322ed",
+      "path": "media/paper/bear/hunyuan15.mp4",
+      "sha256": "5a35b90e9e9eda9b186e2e17e23048a0c788c40ea65a21a7e3bfaf321ef54191",
+      "bytes": 956617,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "81f6b8f0fb932f3eb7378d898d0e8f9223d6b6e207f2412f406670d937ffc37f",
+      "path": "media/paper/bear/wan22.mp4",
+      "sha256": "e9414891c410d66ad488453f08b022f11db35bd23e03e2b5aa42efa53c7146c8",
+      "bytes": 1122221,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e05e23ce4c2c249350b80a6eaecd897e9aa9d6ede205159a6286fa69caffd267",
+      "path": "media/paper/bear/cogvideox15.mp4",
+      "sha256": "64f0426706152378196163cb3c4d4add6e334bf9bf4a0a15469f93ad322b6d70",
+      "bytes": 799881,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e9ef1ae6ea8714962d7b49bbe3f245a8f07e78e358a3ddac99125105925a63ff",
+      "path": "media/paper/bear/draganything.mp4",
+      "sha256": "f2a83b909139f5db19bef403aaceda3d1f30f7d1dc7ddc020fd0ba14d2992803",
+      "bytes": 753188,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a39c331d54d9a3b655ee74283895edd5cc46c2ef973f22d1ffbd22a10c3d0140",
+      "path": "media/paper/bear/objctrl.mp4",
+      "sha256": "78b1f15dc8950887cd4d0747066cbeeae5e33c483e52b73ff3882ef78f51c66a",
+      "bytes": 331958,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "94d2294dd7305edcda74b78d9983c974836ed3617b972998b2fe1ef9347cd253",
+      "path": "media/paper/bear/flashmotion.mp4",
+      "sha256": "2890f3a3cffc9a426fb01f2e6c5add43a7926e9190b871cc41704c32327710b5",
+      "bytes": 949737,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3dda429098bd6de8b5c7b66d8a36dca088dd34da821392637ab662ee460ba5d9",
+      "path": "media/paper/bear/wan_move.mp4",
+      "sha256": "324d28558494e5e68bd8fb02fa9a9f85ee95424feb4b44ae39abc106f94acbd4",
+      "bytes": 2187744,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "76f8f3f31bf7a4034288e045b3fe0ee0750f6baa3f63eb593e8797b8647a59b7",
+      "path": "media/paper/bear/force_prompting.mp4",
+      "sha256": "ab175a642922b8dacce391e536dfc917a5ce6485d82a1c5e480f0f7c38976427",
+      "bytes": 317434,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1bbacaad389c53c21ff786cda8fbab91418d496ad47d251808a9791feada6dba",
+      "path": "media/paper/bear/streamforce.mp4",
+      "sha256": "5b1a770f3047be07f9b0c8fc9e440b2f87fea5533be884a278a6fc33358d3ac7",
+      "bytes": 805910,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "47cb38d97f82e6caddcd3be1c3838c7f40f5a592299ea921e36d3cf2ffaf5a86",
+      "path": "media/paper/bear/mpact_trajectory.npz",
+      "sha256": "47cb38d97f82e6caddcd3be1c3838c7f40f5a592299ea921e36d3cf2ffaf5a86",
+      "bytes": 576914,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "3e626028914d42119253c137c17edae26a647f080b402d7262f36eca2a4859cf",
+      "path": "media/paper/bear/physctrl_stage1_trajectory.npz",
+      "sha256": "3e626028914d42119253c137c17edae26a647f080b402d7262f36eca2a4859cf",
+      "bytes": 573484,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "50dbe2c56ee449cf27debb12bd427f0e58787d217b548873e51ff87bad11711b",
+      "path": "media/paper/blanket/input.png",
+      "sha256": "50dbe2c56ee449cf27debb12bd427f0e58787d217b548873e51ff87bad11711b",
+      "bytes": 767655,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "3b2288e947ae0b73beb51eb94716d81c91a9ad75d71accde1149c8e807e2fea0",
+      "path": "media/paper/blanket/mpact.mp4",
+      "sha256": "91f97e18579e4fd1fb02d8dcdc01d02a5bc065a030459b798c4e71628bb2d949",
+      "bytes": 676030,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5ca1dc76da3290674e8a8db39ff4602fbfe299923e61e9dbe3da8b5d2305363f",
+      "path": "media/paper/blanket/physctrl_stage1.mp4",
+      "sha256": "1855654f02ad0625cb0e9105f6e023d8358c7e31b2f8c09cfcd3805b424d783b",
+      "bytes": 695184,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "91e9be885f077542395cc43d867aef64882349d938315d1a1437ebaae0135528",
+      "path": "media/paper/blanket/hunyuan15.mp4",
+      "sha256": "0b01478f99a15e362688e5f4d7b1a337f12036c184ffac572529bb6a7d7c07e7",
+      "bytes": 2641418,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "05694cd821058d08757b64cc9354677af6525d1767f67e7a6c6a053ba9c2209b",
+      "path": "media/paper/blanket/wan22.mp4",
+      "sha256": "a28fe4d776bfa74eed30125c91fd39983a3f2ae7585b7c48052e37aa3646093a",
+      "bytes": 5267274,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "146850602fc7dbbb3b8dd199dfa5ef2e5e439ed79aad3ddae70cdfe36a1b8f8e",
+      "path": "media/paper/blanket/cogvideox15.mp4",
+      "sha256": "5484825239bb3364bf63c658d6c9167862baeda8e61715ed1d8a302dce1fa3b9",
+      "bytes": 3008578,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2b87cdf14a23f7ca36f493197c6427985fee6d4000586cfb2055636e45280b24",
+      "path": "media/paper/blanket/draganything.mp4",
+      "sha256": "7ebd3d8e56093af59f2163bcaab148ef584a4f6bf72bfde6753b1fa2a98d7af1",
+      "bytes": 2006496,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ca927ee82e65c5da689bd6a433055ac83fd06a32ca86c59e694bd89c55c42e1d",
+      "path": "media/paper/blanket/objctrl.mp4",
+      "sha256": "d77a75fb9050c5428ed3317122a3b908c7a474db188fbffef905490c2726b46f",
+      "bytes": 845628,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e7a6d29d7cdca95ac924e4a9bd8e531831cabeab0b16735c8db38773b873af4f",
+      "path": "media/paper/blanket/flashmotion.mp4",
+      "sha256": "340cb1bfe91c74b42148e2254e5404abe9c7efe85c01930b5a303136954d56ab",
+      "bytes": 5841441,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "759c1a6520b8ca882c5173624af17fed5460f085627ba367535ffb671e47279f",
+      "path": "media/paper/blanket/wan_move.mp4",
+      "sha256": "208b98d10390c8e3543b74b800261b319997eb95426f69c662db11ed9665ab75",
+      "bytes": 9092580,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "44410e09a9ec95e219e46c327422fe320b78cdfdf18163bcc9c19170a5f90196",
+      "path": "media/paper/blanket/force_prompting.mp4",
+      "sha256": "63e74a47d7eca95d81c2e52725df6cb4fc8e3a588b039ad02828211bc83e0903",
+      "bytes": 1284418,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "dcd52ce528953f58f00c94d0e838f2fd3fde5f16d2ca89e67629e1122c5fd6a8",
+      "path": "media/paper/blanket/streamforce.mp4",
+      "sha256": "d21e732125943ca21d3ae22c05d53e0753e056e2887faf13bf6ce1525aa345d2",
+      "bytes": 3779257,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "222faeb70498722890a951e05c8d9705b47f55710f871648a13b607222b5af74",
+      "path": "media/paper/blanket/mpact_trajectory.npz",
+      "sha256": "222faeb70498722890a951e05c8d9705b47f55710f871648a13b607222b5af74",
+      "bytes": 574407,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "3cc9d6a61cf3571ed430daedb77a535e1ec04360392a0994e6a2c2c10e6d2dda",
+      "path": "media/paper/blanket/physctrl_stage1_trajectory.npz",
+      "sha256": "3cc9d6a61cf3571ed430daedb77a535e1ec04360392a0994e6a2c2c10e6d2dda",
+      "bytes": 569561,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "8d502e195127b6bfc44ae2c02d5dc0bc86485a89fcb10d6ce303423908f54234",
+      "path": "media/paper/chair/input.png",
+      "sha256": "8d502e195127b6bfc44ae2c02d5dc0bc86485a89fcb10d6ce303423908f54234",
+      "bytes": 323400,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "669db3e3e5a95228d7c53ce292c54d7a05b0eb5e17ab35e48ad0a7574e9dfcf1",
+      "path": "media/paper/chair/mpact.mp4",
+      "sha256": "cc8b5b70d6c6aa7bbbe9aa86980f0cd6970faca3af5feace57bac2d3c355deb3",
+      "bytes": 161697,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c35779fac3c4fde4c3787058b5d82ce42eb4332371b78ec26fd073e5641dd7f5",
+      "path": "media/paper/chair/physctrl_stage1.mp4",
+      "sha256": "420d535d56f82c02a91bc45c14b138509e5feeab0c802649090e5fda3d83836b",
+      "bytes": 161238,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "34b9c56aa679e772c7f7f06b50a706c8a1e217afb1c9eaa79e63dd3485f73515",
+      "path": "media/paper/chair/hunyuan15.mp4",
+      "sha256": "84824d588613334edaf5820876cc710155a43aa4e0672b2b3ad36ffb779fb4d8",
+      "bytes": 569190,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "efc825cdcc45282f0724c8e1dfc9c8ffc49362ab770b858a9897495cd478ea4c",
+      "path": "media/paper/chair/wan22.mp4",
+      "sha256": "652ddb7555c5aff40141a687e88f213df56df01e7688017ae168ca15eea7adc3",
+      "bytes": 830318,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "83e718ed6bff1219d5c62ef5950bf3e41640d1bf6d4d7745673211f769ed3f76",
+      "path": "media/paper/chair/cogvideox15.mp4",
+      "sha256": "d3e9e5460c162c92775162c2604d1bca9848322905e517b05b1fbf5c432c34e3",
+      "bytes": 1066943,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "3611486d71822fee0cb669d51de6daa662b4c932110803b639659a995b1b9267",
+      "path": "media/paper/chair/draganything.mp4",
+      "sha256": "7840732d4f8e171c14e6b9e0c24f1fae72123a40be9a55187de2a0c0b6c75734",
+      "bytes": 900426,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "76ef892c36df2fdacefb9ba17aff9950c536dc417801f7a2d99267ff498dc9d2",
+      "path": "media/paper/chair/objctrl.mp4",
+      "sha256": "d7e3ac3df8b937103963008be975c16eb1db21b7b16d139f774b0a9734c7822c",
+      "bytes": 423933,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "fc2f206e53d5215c07e638f511e89ee7b641d519a574b6e8596b13ddd58874fa",
+      "path": "media/paper/chair/flashmotion.mp4",
+      "sha256": "deadcafed4a5f7b4a4ce3a5f60a848423b13fceab53174c30781f9a162070a22",
+      "bytes": 1205744,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cc309c5221343ac55f63846d9c99e228272773193efaaf6356f3481aec11d11c",
+      "path": "media/paper/chair/wan_move.mp4",
+      "sha256": "da0e0b51a9c49b8e893759b3f6f8007d9defbfbe3eea7dc487490bd9cc939bcf",
+      "bytes": 1341428,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "10de788d2d2e6267c259883e1f4e1c9e4dbf84d8b54e639e9ab130d50cc5f780",
+      "path": "media/paper/chair/force_prompting.mp4",
+      "sha256": "686ef0e3806109a25ded6132282a3445a61b617f2edf64c4d407b65f65c1f6f3",
+      "bytes": 289733,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7f49771fdbf56bbb3cebe2c2ff4a53e094b87f06eb1b1a891081379fd258a6fa",
+      "path": "media/paper/chair/streamforce.mp4",
+      "sha256": "981066135a47eb779f480843cfe84f796502ab63f511eea3eb0a605469154585",
+      "bytes": 889123,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d65f71284b09b6e529476c371c57a222efb105bc7a65d73c8a47140494916e8a",
+      "path": "media/paper/chair/mpact_trajectory.npz",
+      "sha256": "d65f71284b09b6e529476c371c57a222efb105bc7a65d73c8a47140494916e8a",
+      "bytes": 573264,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "075962fc2c54b87d2e0834ab557d1d3e8a14b2527f090ed302f3cc66852640d1",
+      "path": "media/paper/chair/physctrl_stage1_trajectory.npz",
+      "sha256": "075962fc2c54b87d2e0834ab557d1d3e8a14b2527f090ed302f3cc66852640d1",
+      "bytes": 569961,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "8f2f70f6b699977ac596668a34963165a0754f77cfb1a4c34c53ccb56dbaf3ed",
+      "path": "media/paper/earphone/input.png",
+      "sha256": "8f2f70f6b699977ac596668a34963165a0754f77cfb1a4c34c53ccb56dbaf3ed",
+      "bytes": 212331,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "a30ffa8123acdd7f17ee06b025383b8b0c0278c700abd5706d99b8a32060e05f",
+      "path": "media/paper/earphone/mpact.mp4",
+      "sha256": "97a19f0a65547ea5b6c796a4c6391704930a2ecfc4f41a4c832b4ca5e984726c",
+      "bytes": 106721,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cedec1c7c15f954517d30b65302d0fe9a51aad2512641d0dce9848345df77588",
+      "path": "media/paper/earphone/physctrl_stage1.mp4",
+      "sha256": "edcbbc5e7cb92d7b42cd6455c754fc5498889b747c0e48795dce5035d2cfe3fe",
+      "bytes": 107538,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d4102d7eeb57108946d88a92b0f11d15d3d630305ff27060fd4d5afeb3a4c176",
+      "path": "media/paper/earphone/hunyuan15.mp4",
+      "sha256": "50b37e9b6cf38e5981a9bc1084df8d81368667e815ee76e2826745e2ab9799e8",
+      "bytes": 363383,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "36be33ee3e345c88600665e5b37d8ec1bf798cff3b315ee360af35d4cfd6eaaf",
+      "path": "media/paper/earphone/wan22.mp4",
+      "sha256": "f5b7f2725e540297186b0c99d71900828575d998d81892e663e475ac26fb6a0f",
+      "bytes": 1060846,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ff28c9328ca3d5461933ef2c73b6c7882a013b0c67926b0364eb9541f7104575",
+      "path": "media/paper/earphone/cogvideox15.mp4",
+      "sha256": "f9f03124c3dbfff7f04649aec4d06f5e3da0f715aa212fa68c0b0088042f472d",
+      "bytes": 799765,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1284bc0cbd83d606ba6ed6bc7b0d2df9263683cee9e36904c6f0de0dc27cdf2e",
+      "path": "media/paper/earphone/draganything.mp4",
+      "sha256": "d16be06914ac1fa7c25537abb28d9a61b91e4757830fa3e364525c08c8ecb33c",
+      "bytes": 843455,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6444a78048c8b76031c7749d49c5f624e0f856f14f75d7b3793daa57af5efabf",
+      "path": "media/paper/earphone/objctrl.mp4",
+      "sha256": "ebc13f5b56598a7be50f6e64019cd37ba279833d7232a8f519a13d8622db84d6",
+      "bytes": 422063,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "40ca967ca269ae6d307e111d77460492e408710762b653a254a35ff6761fab65",
+      "path": "media/paper/earphone/flashmotion.mp4",
+      "sha256": "fa0468814038f0de1e45f81d67cabf3db8c700566d7045fe63e33161e45e7a3d",
+      "bytes": 1106624,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c1c4fc9d147921e8a18825b4af70a4c2514d9be2bf67d920fbba4d8830e2332f",
+      "path": "media/paper/earphone/wan_move.mp4",
+      "sha256": "2d0bd64c076dfaae4f07f42792ff237315b4061de42b6461a13a2981963efbdc",
+      "bytes": 906906,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "921a75489ce5201fc49884247742aeea852ace5c037d5c7458ae4353991eb4d4",
+      "path": "media/paper/earphone/force_prompting.mp4",
+      "sha256": "6ef3c61e14486481f360997f23366bc3594eefbf86724444d8a7c0de5b3a0b82",
+      "bytes": 180161,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8b256f830fd6315c404fc3857d6eb1fd375c355c53b05196b395263d121e5c0f",
+      "path": "media/paper/earphone/streamforce.mp4",
+      "sha256": "cc8f25f923de05a20b8f5451fa57c96153d0a6f17f76a1745dfeb5d574921d0e",
+      "bytes": 619476,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "b0c0bf97cf868e58583a5c0f238991ca0a9c2f6de027e93a233b3b5645acfe37",
+      "path": "media/paper/earphone/mpact_trajectory.npz",
+      "sha256": "b0c0bf97cf868e58583a5c0f238991ca0a9c2f6de027e93a233b3b5645acfe37",
+      "bytes": 571450,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "3d4ad7f7e1e47920c4df2b32252ebfd00ddd47ed00cc42561d393856a8a87423",
+      "path": "media/paper/earphone/physctrl_stage1_trajectory.npz",
+      "sha256": "3d4ad7f7e1e47920c4df2b32252ebfd00ddd47ed00cc42561d393856a8a87423",
+      "bytes": 567739,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "0709ac5cb36415120774b1e2558fc6f10f20f9acd25cf7f5ff0e448b0a2d86fc",
+      "path": "media/paper/giraffeX/input.png",
+      "sha256": "0709ac5cb36415120774b1e2558fc6f10f20f9acd25cf7f5ff0e448b0a2d86fc",
+      "bytes": 283414,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "d4d1fc8ac8e735a5623c8a6fe0b390348c757015715cf77872537acf0bc65226",
+      "path": "media/paper/giraffeX/mpact.mp4",
+      "sha256": "8fa72d63b91da9eb18edca95d0ea2f706f873ce554a9e64827bb69bb551e8272",
+      "bytes": 131565,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "7562770547d6e005944be89ccc62837b26e4a57a48e0a8ef3df9c84d7820d8af",
+      "path": "media/paper/giraffeX/physctrl_stage1.mp4",
+      "sha256": "d7c18cd26b56b699992541288fbe7807decd84f22b4a243010a20c2e511bc4c3",
+      "bytes": 131800,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9f1513eecf5e3bc964f1e50c1d030157f797173c0c1ca31ec8bbe709cb5b8d7f",
+      "path": "media/paper/giraffeX/hunyuan15.mp4",
+      "sha256": "32f5c038dc585651b2668f71b54ae0e5e2fee9d6fee4be48cb83e2780db0b542",
+      "bytes": 616380,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a33361de738bccd4600de26483789c7319c6842be2217691c45f9d014dfd08e0",
+      "path": "media/paper/giraffeX/wan22.mp4",
+      "sha256": "0eb5c3a9bc7d273065059a5ef6fc125ae0fac983bf81d2822ff4c9520011c485",
+      "bytes": 1021565,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "bcd870f38ccd1185051cb86b639902c10f6da0f8afb2ba268db4a120fcc32d97",
+      "path": "media/paper/giraffeX/cogvideox15.mp4",
+      "sha256": "72ae1b8f91ba0d81b942fc3cf4b6df8da648b56d7edb68f1a8b5978f91c9648a",
+      "bytes": 994926,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1694f5e85d008f7d990d486697a36b3c9b44545c5eab74839ef7808ac8e25b64",
+      "path": "media/paper/giraffeX/draganything.mp4",
+      "sha256": "0dc7bc47046749615af67f3167abb8e2f0179384f75fd6f24a09cfd69280be05",
+      "bytes": 821701,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9b63dc7265adee4e06ffe2bf1bdea5bbf92852b97c5a9ab9c864ce74994837dc",
+      "path": "media/paper/giraffeX/objctrl.mp4",
+      "sha256": "c9a571fc18f4757cabe022ff156edc1b24886c6094b7f73c54b9102a1443c643",
+      "bytes": 325928,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "022191cdd9ed9ed980b1516f8e97eb5b3a1158b2ff0a567ac652c094d7630702",
+      "path": "media/paper/giraffeX/flashmotion.mp4",
+      "sha256": "e0ff03d7e3074e94c218712558f002a01f81d84db9cfd2f3b8a2cd2684be95bd",
+      "bytes": 852846,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "54e1cce260affa03a0df5877f34afe2e244fb6eaf51523408dea6ab5d4e3f4ca",
+      "path": "media/paper/giraffeX/wan_move.mp4",
+      "sha256": "3298f6899db7f48cee1621090ab63a168b31fcff2130404d71989e40dce2809d",
+      "bytes": 1174891,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "2cc7da58c9e026ea03a05f48dbad587073a47b9fb641d2f62c862de871095f7a",
+      "path": "media/paper/giraffeX/force_prompting.mp4",
+      "sha256": "1f8d9222e047e1f82688c912c9410a4f288d54691edfa17fb9d34c6b33a0dbe4",
+      "bytes": 219858,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "38bedac3cade123fe5d63a221a8d55f0de6b4577526392effaf124acef404f2e",
+      "path": "media/paper/giraffeX/streamforce.mp4",
+      "sha256": "0f83fc533f18346dd65b7192d396f65a4c36ed4d5a308359e7e3733ef0bbb790",
+      "bytes": 739842,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cb9da2f5e59045680621560c9861a4337bccd5ec8ece53f8dbf5e3e2831eb11f",
+      "path": "media/paper/giraffeX/mpact_trajectory.npz",
+      "sha256": "cb9da2f5e59045680621560c9861a4337bccd5ec8ece53f8dbf5e3e2831eb11f",
+      "bytes": 574632,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "f2e48d7e74c58902ec44c4da67321673ec7c59a496162826072ca077afa2c423",
+      "path": "media/paper/giraffeX/physctrl_stage1_trajectory.npz",
+      "sha256": "f2e48d7e74c58902ec44c4da67321673ec7c59a496162826072ca077afa2c423",
+      "bytes": 568935,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "b2474328be1ff6f377f3a82340dc2f6b58b6bd2f48101eb7c5df6015746bc188",
+      "path": "media/paper/nailong/input.png",
+      "sha256": "b2474328be1ff6f377f3a82340dc2f6b58b6bd2f48101eb7c5df6015746bc188",
+      "bytes": 430860,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "3da7e908699b28a09909f6cc93a3089a573e5fda2fabc2f06df95d42594c13f8",
+      "path": "media/paper/nailong/mpact.mp4",
+      "sha256": "9ac312ccc19095d41e37fa76ab56ab1c58502dd5ba8a3a879107b55beaf68ec6",
+      "bytes": 91373,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4a4a0073970993687b66c461e50c94d5051cee9933aa5f5f4158b881a9578915",
+      "path": "media/paper/nailong/physctrl_stage1.mp4",
+      "sha256": "b26f65fc7328d5135741a4256be990a14747f890df9793f6cfa501f03520515e",
+      "bytes": 89095,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "400ba53c602a7cbfbf395904598b79715fce752834cb4e86b2480ea1f92d678e",
+      "path": "media/paper/nailong/hunyuan15.mp4",
+      "sha256": "ed99ba2f3d35a17aef1f91bce5a2c5d55ee6f508fe08a6f7a60e13031acf3952",
+      "bytes": 591953,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "1e4ff2da17b9048f2e4e4e648b4d42c331fcb31d20a1fbee092f576f97bdd778",
+      "path": "media/paper/nailong/wan22.mp4",
+      "sha256": "eafbb2c5c73b88eb4baab3ab46e394cbb6129f0ddcbe9c375ca846c8a8135c4b",
+      "bytes": 727468,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "68311ee110b39d1fc2b82ce851fc98b3f207b3d08f6818dfdb67ad62cefdefd7",
+      "path": "media/paper/nailong/cogvideox15.mp4",
+      "sha256": "acf0d5e84b41ac98d0e117c0d1716884efbb7f0db4d99e24979fe7de63be1ac8",
+      "bytes": 727737,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "51ba59c28b1fb44ba3f86924fcaf57b466f3ef98d559985195d78ac2a38ed6ec",
+      "path": "media/paper/nailong/draganything.mp4",
+      "sha256": "51a5b8e43c3c9221f95aee1329503a4a3df2a31b50c959555c97a5ecb8d4dd27",
+      "bytes": 686974,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6e00ac672e6484acc9cd5819406ee545366213aee66db1c3ccbca34e5c5bc647",
+      "path": "media/paper/nailong/objctrl.mp4",
+      "sha256": "4e5e51019e21bade98ace82e4aab2461f38069cad932958dc63bdefa23a3e6b7",
+      "bytes": 353940,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "152bd992a5d5a16cb9e614bc5a5158ad37a448dceb4a92cb9cea07635ddd7a25",
+      "path": "media/paper/nailong/flashmotion.mp4",
+      "sha256": "f470cc5d0b6c12c74e7ad18334b244a92deea066aa0e4e6941d8c8695895d666",
+      "bytes": 793334,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c003ee169543582e47a51c6c0662731a8680086bd2e01aa6326fb0dd18b1c468",
+      "path": "media/paper/nailong/wan_move.mp4",
+      "sha256": "48e260e0e7b3760215f6dc5a08fde495037edaf66e8e5a0d8d4852bb4f1a7142",
+      "bytes": 685399,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "978328f993f56bd84574f03aff352377b5a078019718771252affdf370451a28",
+      "path": "media/paper/nailong/force_prompting.mp4",
+      "sha256": "7df25c302725f6e7aecf4c63899527ef1a1f1a95280b7312309c8732f97defd9",
+      "bytes": 252492,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "db3be1da150d1910369c9a0c77c016f85db8240b14eeb06e11e900a3e4548329",
+      "path": "media/paper/nailong/streamforce.mp4",
+      "sha256": "24ae4806836c447ec284eb0e01f51f79494536dc3b5b8f0c10901b4bced956df",
+      "bytes": 728703,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ca079e0af97c6fa3e3ddf5bda5b549f64a334ac88b73ed5728877d8cb109cf35",
+      "path": "media/paper/nailong/mpact_trajectory.npz",
+      "sha256": "ca079e0af97c6fa3e3ddf5bda5b549f64a334ac88b73ed5728877d8cb109cf35",
+      "bytes": 579626,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "6ab734c181f72ff53d7cd2fe3ebb61dbdc361c46f2d0789aeea260cc5b45aeb7",
+      "path": "media/paper/nailong/physctrl_stage1_trajectory.npz",
+      "sha256": "6ab734c181f72ff53d7cd2fe3ebb61dbdc361c46f2d0789aeea260cc5b45aeb7",
+      "bytes": 576219,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "f9cbf605a79415056e971c689efb49f948ee1cdcab78a62c524215cafcc39766",
+      "path": "media/paper/penguin/input.png",
+      "sha256": "f9cbf605a79415056e971c689efb49f948ee1cdcab78a62c524215cafcc39766",
+      "bytes": 382061,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "561ef7daf10d1358833f304de0c332a9a22f1a93a3bdfc38cb55ee226e467e57",
+      "path": "media/paper/penguin/mpact.mp4",
+      "sha256": "e84ad9b30026f3fd409a9d9f1f0773a796cf0cad5c44a68b57fc5fecd7b42862",
+      "bytes": 172724,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a877ccafa471c1a67edb0ffaa8588e30be68c5ba1d558a995312e3d6a39cbb7d",
+      "path": "media/paper/penguin/physctrl_stage1.mp4",
+      "sha256": "5c8c2b1606cbd7274b9e883ef06e3d9562e6cf342f5e79336b763acb5776897d",
+      "bytes": 170853,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8828539aae2672c06a1b354652d7ab8160713fa9aafc15d119d6291c6b5975b0",
+      "path": "media/paper/penguin/hunyuan15.mp4",
+      "sha256": "90d89103a194a039d5f739b8318ef8c6546288651f017078240687ffcd111979",
+      "bytes": 883335,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "35f96161773d031240a3631a98a57e5990c353f5088192960da3e8c3dfe1a34e",
+      "path": "media/paper/penguin/wan22.mp4",
+      "sha256": "202876ead7dfd3ecac181abb2577abdb544fa8f4c30a0539c01c439151f28436",
+      "bytes": 1302753,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ae4549d46a4634c7b8a4845cdee95ba6fc740b9c0da131f5b5f21387baaf65a6",
+      "path": "media/paper/penguin/cogvideox15.mp4",
+      "sha256": "3c08f9f2b99bb35bf2761c25f789f1faae95f5e8365d8686c390156a896373e9",
+      "bytes": 1141400,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "0594d575255a55ff2f84e8333e2354e926c3a9028588aeb4ba6fc546719b0371",
+      "path": "media/paper/penguin/draganything.mp4",
+      "sha256": "2dd48410a610b6521820c0230491b8a6c33308641d55ed3d9d6d6ee4b49beb22",
+      "bytes": 755176,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "05008cc7c936595d55f316c6a1df4778dd954c0ce9601a7fe7c79d8cc646984c",
+      "path": "media/paper/penguin/objctrl.mp4",
+      "sha256": "5fb9e97f26635a8afdf309ec6078e426a377d1e7264d1c726e0b6e0a7702fb93",
+      "bytes": 497397,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "eb57067554900ec247ade7cdd99c30a6fbc38038d634a202c50a2934cef6c99b",
+      "path": "media/paper/penguin/flashmotion.mp4",
+      "sha256": "e73ae6c42f0e6a3470417e3600ab4865752daf70e5733484202bb58d21d41390",
+      "bytes": 1485628,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ac3d64d8dedd88dc6261eebcf0e75e57db1e0d6a56587ebc0556d13dd6140202",
+      "path": "media/paper/penguin/wan_move.mp4",
+      "sha256": "14a38624c841611a7d2706ae9853d4cf7054d5cdddeff33b11228b1b07106728",
+      "bytes": 3140424,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c6026add1dc4cb0330bb5a6d17abb613e990624be0dd143ed00e40809d06ced5",
+      "path": "media/paper/penguin/force_prompting.mp4",
+      "sha256": "7d1154258fdda7b3de77d89dec96706091ce0c28b32be18a94b3fa6aee55c3fc",
+      "bytes": 406642,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4aceb16ab1a208b7d51eded3b0ae85b1330b95b20733c14446d0ad3c04581c26",
+      "path": "media/paper/penguin/streamforce.mp4",
+      "sha256": "c66d6a243f6d05d91d6950629c7da5d9cfa81b935e84ed1f7a36c87a96469d85",
+      "bytes": 1018995,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c25fe228f180fdae1572bfee70d68d6f007f34d5aa641b29d587518a479cc38c",
+      "path": "media/paper/penguin/mpact_trajectory.npz",
+      "sha256": "c25fe228f180fdae1572bfee70d68d6f007f34d5aa641b29d587518a479cc38c",
+      "bytes": 571733,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "7afe93572e43ffe991bb21a90b45cab35e36094a5c2d95ba3f77f148d46d0b20",
+      "path": "media/paper/penguin/physctrl_stage1_trajectory.npz",
+      "sha256": "7afe93572e43ffe991bb21a90b45cab35e36094a5c2d95ba3f77f148d46d0b20",
+      "bytes": 568319,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "763737c30ae95803f7fbca668394367db554ad61ef5525dfc69db836763a1f9b",
+      "path": "media/paper/transformer/input.png",
+      "sha256": "763737c30ae95803f7fbca668394367db554ad61ef5525dfc69db836763a1f9b",
+      "bytes": 483689,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "ff26ddf85c94a690570bba17746db5b3226506e0da4def39445d5bacc5fdf6ec",
+      "path": "media/paper/transformer/mpact.mp4",
+      "sha256": "8f4000faa656de0a639aaf2d15900230728a23bd5e11cb27deb25174635465f2",
+      "bytes": 386292,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9f809a10fa3c6eb1d3f6d24498430ae3a0ceb16162cc37a38209c5896915e80f",
+      "path": "media/paper/transformer/physctrl_stage1.mp4",
+      "sha256": "1ab812e95ee077da2c1bb4a5b4153c94e33592a10f2db665b482e7f605c2ddfb",
+      "bytes": 370205,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6d00399df50dda85a96a744f2a008b4b5f71c170093c65ae649d432b8e27b2f2",
+      "path": "media/paper/transformer/hunyuan15.mp4",
+      "sha256": "74496d6440bc49ac1a69c37c8d71118e8611d985a1df4877e5ccef8b0743bf3c",
+      "bytes": 1055210,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9cc28fd24377ba144281ff04945c153090ffbbddc91f6bab094717a2428c2e51",
+      "path": "media/paper/transformer/wan22.mp4",
+      "sha256": "476ed21a9168a8089ebbca7c0d33e41c5af960793a463baefca8afe9d8dcfb5d",
+      "bytes": 1429491,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5e359da2362a3c3f16085ea4cf65e2f50209c93512bd6dbb1d89d688af42f8fd",
+      "path": "media/paper/transformer/cogvideox15.mp4",
+      "sha256": "3825dccd89006cbc56c238ce1a86d785de918ba5e2fca20449ca6879b538ec6b",
+      "bytes": 1188327,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "89ae61062994bb47e2a4c3faf17c6826e9d1d880c4af4f64b649f23d7c332d5a",
+      "path": "media/paper/transformer/draganything.mp4",
+      "sha256": "60e6c104d349320f97b6681dae3a68a44df793bf3059e5398e0e3f155f32e1d6",
+      "bytes": 1225794,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8f9554209902fdd1f52dec2a3fc004e9f68f284d02244c106721ae7db98157c3",
+      "path": "media/paper/transformer/objctrl.mp4",
+      "sha256": "266755c3e9edc225b3cc574c80f8c2e12b85ec9faea02aa60189b133269d88a6",
+      "bytes": 699019,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "22ccf2bd538b10c57c6163a3074744be1b9ce2a79db9673f74fd910ef6fc8e23",
+      "path": "media/paper/transformer/flashmotion.mp4",
+      "sha256": "b13b9edf6c17b9ffef127871c4c3987f9d3c6d2376aa06f89c7c54805a0e77be",
+      "bytes": 2385544,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "405a232ea64f9ab280b10a91a2771b1d2a73ceb3926d86843c50a06fce47a604",
+      "path": "media/paper/transformer/wan_move.mp4",
+      "sha256": "12aa6a4e6ad9b5223cbcde74b26ea7b8eb9396de4b6a2c08e03a07404e144ff6",
+      "bytes": 2067370,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c4da6550845f7206c493f40acb2dc6b3a263616c1974d5233801854479ff4e5b",
+      "path": "media/paper/transformer/force_prompting.mp4",
+      "sha256": "c7ebf5dc7cf5b4ec81bdc02c37b7adc144dc15d94ea4743115fbed25ba8f6dbb",
+      "bytes": 678980,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "132976c8c1af5106b8a2cc066528274394957a213c8964d2dc882198713aff5f",
+      "path": "media/paper/transformer/streamforce.mp4",
+      "sha256": "5618c2cb99a4543e7d7d6abeb8ccfd008f1392d168f0166e3c0b74937540f0dd",
+      "bytes": 1172368,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4ec1ea9241f1d5c12d0272ee25b0fe1388f824dc928eedcbaf5202f6ca547dcb",
+      "path": "media/paper/transformer/mpact_trajectory.npz",
+      "sha256": "4ec1ea9241f1d5c12d0272ee25b0fe1388f824dc928eedcbaf5202f6ca547dcb",
+      "bytes": 577419,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "a6062442fa1bbc942cfd0247ef4fc47e2864223ef4086106dc9f312a81c50b44",
+      "path": "media/paper/transformer/physctrl_stage1_trajectory.npz",
+      "sha256": "a6062442fa1bbc942cfd0247ef4fc47e2864223ef4086106dc9f312a81c50b44",
+      "bytes": 574472,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "176b9f8ed5680ec6b1ba0615090f54aecda34e4e4739fbb5eef4934d70f4c828",
+      "path": "media/physicsiq/physiq_0139/input.png",
+      "sha256": "14bac7cd9d86f72eb789fea8cceafc8e1bd744df34c037e67dcad134cf3a4edd",
+      "bytes": 402722,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "cf3a73b30ec194e85009e5bc32902465bbca456329e01912470d200d67430618",
+      "path": "media/physicsiq/physiq_0139/pavg_trajectory.npz",
+      "sha256": "cf3a73b30ec194e85009e5bc32902465bbca456329e01912470d200d67430618",
+      "bytes": 568643,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "afc452c91dd39ebbbfc499b57cb78fb6ab4ceed418e2eed78169884afb0830ca",
+      "path": "media/physicsiq/physiq_0139/reference.mp4",
+      "sha256": "a101c1c856b3a1997fb7cc16b0af5ca83e68f6d4abaa0ef73fcae88dd4b2aca0",
+      "bytes": 85708,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4b06b592cbd3a3d96f0009e366ff35e32f2530691c7a9b51bd0fc599718514c9",
+      "path": "media/physicsiq/physiq_0139/pavg.mp4",
+      "sha256": "8fb4b1dd47fb2bf4c0edad2044c16a3924a67576cdffeb7f2cdc43eab6009946",
+      "bytes": 104415,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "63b7e86d9741cc944d4b53eda424f53ec01439996b569222f3c269f9b6e8791f",
+      "path": "media/physicsiq/physiq_0139/cogvideox15.mp4",
+      "sha256": "8b82ef0b9aa8460a72e5d381dab277eabd59e5688d64a71bb65a763cce014588",
+      "bytes": 210043,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "312e23e2e385b4c8c048181af89d47047c94b84246a4a8d5d18013fc8296fefe",
+      "path": "media/physicsiq/physiq_0139/wan22_ti2v5b.mp4",
+      "sha256": "3c1e843009bb02b6789a0ee035e4dc61f1accb33e6008486481a625ac8f7798f",
+      "bytes": 176200,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "5ecad7544d7e7b3f4a6459d77088d67130e9d9eb9b923562296406e093d5e794",
+      "path": "media/physicsiq/physiq_0139/native_pavg_8fps.mp4",
+      "sha256": "cfa060d878b21cee9a7a87610fb31d8a5c3bda8e5c7bd5698ccfb28cf4bf57c4",
+      "bytes": 133275,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d5301d28671e3e41c37e1b3575fc5ad47fb2fd993348a009cf7bf20c6bd6ed59",
+      "path": "media/physicsiq/physiq_0139/native_pavg_24fps.mp4",
+      "sha256": "fe84fc970e8a82783eace6daaba133fd5239e93bdf6a236c2d9b09fd43404942",
+      "bytes": 109994,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "681610da00209ee020b3076204ab66dc20bb907d79bdc5f90f2220ec221bb0e7",
+      "path": "media/physicsiq/physiq_0139/native_cogvideox15.mp4",
+      "sha256": "57be242a8377b29855d1adf8a84ef5c4061ab96ce52003ff0a8ce46b1ede97cf",
+      "bytes": 548758,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "c944744c48c8120795b432ed072705f7da1d77a7e9bf0bb43e0e089c4f32b2e1",
+      "path": "media/physicsiq/physiq_0139/native_wan22_ti2v5b.mp4",
+      "sha256": "fec915b8203ae27c26702e069a7bd6a13859b50b37f187efa922160b0f8786b2",
+      "bytes": 2948746,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "75c864f9e6c3d2b72c1ea6feb7a76be556e9c49b68ca197e3e107b14832ffb10",
+      "path": "media/physicsiq/physiq_0140/input.png",
+      "sha256": "a451704b8f34534bd824abe7650e65971d9061ce287da4517bd51d0a534e000a",
+      "bytes": 386452,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "98da1692c4d7d099b4d1a97805da7bfddd592f3ac259d762bb79a42fcbd93804",
+      "path": "media/physicsiq/physiq_0140/pavg_trajectory.npz",
+      "sha256": "98da1692c4d7d099b4d1a97805da7bfddd592f3ac259d762bb79a42fcbd93804",
+      "bytes": 571574,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "764ecf2ac6ca895a9751e88b00294de83a775f3f25ffcf7897b87a9946c0791d",
+      "path": "media/physicsiq/physiq_0140/reference.mp4",
+      "sha256": "5928e40a113adde46be5ef0cde2f0ae8a6375b687dfd032c9390a055eb072947",
+      "bytes": 69693,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "852191bf2b8df6db840ef7e8368fb8c4c6cfc4a174604caa66fc16071b90792c",
+      "path": "media/physicsiq/physiq_0140/pavg.mp4",
+      "sha256": "09661a9e1069d28c46277df163b81f010126e1162122caf20574028b03221310",
+      "bytes": 87922,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "cbf4c1fa1b6f77a6987d58b028626c54fd7ef70a315d775e9edff43b2675709a",
+      "path": "media/physicsiq/physiq_0140/cogvideox15.mp4",
+      "sha256": "5d1915797584c52052fd4baab747a057fbd68fa0e4984af4f02d7530cd467466",
+      "bytes": 198105,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "4e85cbd012274d3af09e8a79a4fb620da3e715f1a104e0f6185d1c4a57eadf93",
+      "path": "media/physicsiq/physiq_0140/wan22_ti2v5b.mp4",
+      "sha256": "74015fb682958c139d89b0c24be1d9b9383ed0c44c711a59baf7067f3b61d806",
+      "bytes": 145021,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "37d8f455e722bf3a549d03106505010b013ed941eeae23e95cf6541f99f0f11b",
+      "path": "media/physicsiq/physiq_0140/native_pavg_8fps.mp4",
+      "sha256": "3121e51656db81a4f5a6f36d2d5a2add1bd0a95b197428ffab4b20b22371a949",
+      "bytes": 111041,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "6faccf201e22ab9447f53aad887e91906bdd2185449bae66913834e951238953",
+      "path": "media/physicsiq/physiq_0140/native_pavg_24fps.mp4",
+      "sha256": "697778f9c755da5c097a318ee58475650e2f52f025152a1b22633d47da788cfa",
+      "bytes": 93015,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "696636bca32468294bedc643d526c3478c54013379f0f75ba032a21707a23340",
+      "path": "media/physicsiq/physiq_0140/native_cogvideox15.mp4",
+      "sha256": "e21d0fa3c3f8834b388f8c0303d2fa18f905fdbfd7c8dca51917ce4836d16290",
+      "bytes": 482078,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9ce0d9bf5060f2c3f50b8dd5c5c06da7dccea26602dc7dace13d201b8fa576dd",
+      "path": "media/physicsiq/physiq_0140/native_wan22_ti2v5b.mp4",
+      "sha256": "03dc2f0d5bb5a47c3fb29cbb1fb235bc2f465b913d766f5e2cd80e4c1ca5f483",
+      "bytes": 2525802,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "e6ca164de6b5fbdaea6a50a1e7b7137039ff89fe13d43468d42a173d68b5acad",
+      "path": "media/physicsiq/physiq_0141/input.png",
+      "sha256": "fe9f74281ee8d2857eb86a05ef4e6f2a23a141110946c5e7eda86b280e795c67",
+      "bytes": 425585,
+      "transformation": "RGB pixels retained; metadata omitted"
+    },
+    {
+      "source_sha256": "fccf032856858151a4447ff8d534c1ba73f1ce58fe450b0ef82fc7d3d53c64f5",
+      "path": "media/physicsiq/physiq_0141/pavg_trajectory.npz",
+      "sha256": "fccf032856858151a4447ff8d534c1ba73f1ce58fe450b0ef82fc7d3d53c64f5",
+      "bytes": 571212,
+      "transformation": "original numeric NPZ, byte-identical"
+    },
+    {
+      "source_sha256": "54acafe17fe615b7dfe8ac584e776661ca544b344234c02ea82c4ce347fdbf21",
+      "path": "media/physicsiq/physiq_0141/reference.mp4",
+      "sha256": "8ab5ba086db5c43731831e99b19bd7d3f34b50076f4286e96ed3cdb4d04090db",
+      "bytes": 84412,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9ced719be0aa768b983ebc2873d2068b018b8882e5e444afc8988fb78709c4cf",
+      "path": "media/physicsiq/physiq_0141/pavg.mp4",
+      "sha256": "390b5ff1ef952b28841513544620d804e31ec87e0d4d2f35d419ff018a663de2",
+      "bytes": 111057,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "df344f7a05d6ab5ff42b33bedf83312d6ddbc548b6aa6b8957b5f0a96929ee83",
+      "path": "media/physicsiq/physiq_0141/cogvideox15.mp4",
+      "sha256": "9e8e02249d5efb8307e67fb091e1758849589f3ebbca1a9f523e1f56309bdf59",
+      "bytes": 201069,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "f51373713d6e29e2b0b99761ac6be41b9712ba501240616c5bfb8bf160aa41c0",
+      "path": "media/physicsiq/physiq_0141/wan22_ti2v5b.mp4",
+      "sha256": "0388f152b9068d56d0e16f736fd58a17e0a4663805ccd32e5e2c0f96a2fe7078",
+      "bytes": 170942,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "a93507ed77de44ef86e43299a5286b7275ab514fa79c894e2b71ea1003e15f8e",
+      "path": "media/physicsiq/physiq_0141/native_pavg_8fps.mp4",
+      "sha256": "8f784bc681806b60fa845c4effdf84cff4299b9aed6c923d2103896443960aa1",
+      "bytes": 144328,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "72fd4dc3d70f83cef4edefac8df4c0de59ccd8708ca44a33e39705ee3245a2ff",
+      "path": "media/physicsiq/physiq_0141/native_pavg_24fps.mp4",
+      "sha256": "dc319a7a3bb5967a77b04a94d3b1c0d4b71b29f0af0e6fd14dcb82c996ff2a9a",
+      "bytes": 118735,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "d7f802dddb52bbd3e232c33c9565b0b7eb8cde5b82d134aeff86f7ade56f4e5e",
+      "path": "media/physicsiq/physiq_0141/native_cogvideox15.mp4",
+      "sha256": "97a40d6066740f511edfa6f3161e169bfb397f8ed2ca00d25713e98cebbb933c",
+      "bytes": 506281,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "8ef8bfa581b37b45ff48b664ed019981b1b4ae121cc7341a682156ca47d598d1",
+      "path": "media/physicsiq/physiq_0141/native_wan22_ti2v5b.mp4",
+      "sha256": "011b45a1c73f250ccdc0efcf201bbfe8af26aa28ec615256a6e25a4a9385323a",
+      "bytes": 2858794,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "9af470948bfdd3f36c94a6ddf7fd61330c42e23b6df5a61b1d0f49cbd09142fb",
+      "path": "media/diagnostics/v4_rerender.mp4",
+      "sha256": "19ee2a54891745a637feaeb8c25204a565330f6cec0a5983b1762ba0f48e42b2",
+      "bytes": 142361,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "56ed0441f9add47b8923df9b782045d2ec32a18b32cb5c8a9a3a548759495e42",
+      "path": "media/diagnostics/v4_rerender_control.mp4",
+      "sha256": "6817e6b77bd65ab3a4cd73f177bb995625ae6a724621f17a1af1cadd30d52bd8",
+      "bytes": 325535,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "734055f5fcd76d6373759eeeb112d5bdaf7dfbe9d856ec4eb758fa3e726ec465",
+      "path": "media/diagnostics/v4_frozen_gas.mp4",
+      "sha256": "fb7ed17c11ba7a4edddd49e5a09a815db5022a82924340bd71bac7da827c8044",
+      "bytes": 145040,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "17200704e82434670a46dd2f3f7e2060f1bffbdd7a5b502336d52c9d1802becd",
+      "path": "media/diagnostics/v4_frozen_gas_control.mp4",
+      "sha256": "053873f430cc2a094f9249450609a1ea59a0c4b73ff04969ab2fbd0cd1a40a66",
+      "bytes": 194945,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "ebc7fe05f86edc3447223ae9f88cb0701f432103666e4ea154cdafbc93c87a5f",
+      "path": "media/diagnostics/v4_gas_double.mp4",
+      "sha256": "16a7421c0e88d97325bb855a0bb8341caf7c53539a114f4afe5c29c5bd29c83b",
+      "bytes": 160431,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    },
+    {
+      "source_sha256": "085e7ff0eda78bb53bdb111cc38a10673bef55510d8ed59484a0732053b1c275",
+      "path": "media/diagnostics/v4_gas_double_control.mp4",
+      "sha256": "b6fa77ba14d42fd8614ba77aab68b6b4522a4be3eeb27be7785f89238d0a5e91",
+      "bytes": 396126,
+      "transformation": "video stream copied; ancillary metadata, chapters and audio omitted"
+    }
+  ]
+}
