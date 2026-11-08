@@ -1611,20 +1611,33 @@
 <a href="videos/media_diagnostics_v4_gas_double_control.html" target="_blank" rel="noopener noreferrer">Original MP4</a></div></figure></div></details>
 <p class="fine">Mean adjacent-frame flow in the dust region: 0.0175, 0.0170, and 0.9933 pixels/frame, respectively. Optical flow measures image texture change, not material-particle motion.</p></section></section>
 <section id="failures" class="subsection"><div class="section-heading"><h2>Failure cases and scope</h2><span>Original-paper outputs / additional analysis</span></div>
-<article id="failure/rigid-test475" class="test-failure">
+<article id="failure/interaction-test682" class="test-failure">
 <span class="origin added">Rebuttal analysis / held-out point-cloud test</span>
-<h3>Rigid object flattens after ground contact</h3>
-<p>Sample 32490_020.h5, from the original 700-example trajectory test set. GT preserves the rigid shape, while the PAVG prediction contracts after contact. Final shortest principal-axis scale relative to the initial state: GT 1.000, PAVG 0.398. This is one selected failure, using the original checkpoint and saved predictions.</p>
+<h3>Gas transport drifts during solid-gas interaction</h3>
+<p>Sample composite_097755.h5, from the original interaction test subset. The predicted gas gradually drifts from the GT transport and spatial distribution around the moving solid. The final gas position-vector RMSE is 0.999 in canonical coordinate units. This selected failure uses the original checkpoint and saved predictions.</p>
 <div class="comparison-grid failure-points">
-<figure class="comparison"><figcaption>GT / PAVG: shape preservation</figcaption>
-<img class="motion" src="media/rebuttal/rigid_test475/gt_pavg_shape.gif" width="1080" height="580" loading="lazy" alt="GT keeps its rigid shape while the PAVG test prediction flattens; translation and rotation removed">
-<p class="fine">Translation and rotation removed independently. Identical scale; no shape correction.</p></figure>
-<figure class="comparison"><figcaption>GT / PAVG: original trajectories</figcaption>
-<img class="motion" src="media/rebuttal/rigid_test475/gt_pavg_world.gif" width="1080" height="580" loading="lazy" alt="Ground-truth and PAVG test trajectories side by side in a fixed world view">
-<p class="fine">Fixed world camera and shared scale. Blue: GT; coral: PAVG.</p></figure></div>
-<div class="native-links"><a href="media/rebuttal/rigid_test475/three_view_keyframes.png" target="_blank" rel="noopener noreferrer">Three-view keyframes</a><a href="media/rebuttal/rigid_test475/gt_pavg_test_arrays.npz" download>GT + prediction arrays (NPZ)</a><a href="failure-case-manifest.json">Case provenance and definitions</a></div>
-<p class="fine">2,048 points; initial state and 24 predictions at simulation frames 1, 3, ..., 47 (0–1.9599 s under the retained simulation clock). GIF timing is rounded to centiseconds, with an 80 ms final-state hold. The failure occurs in the trajectory predictor; this test example has no corresponding generated RGB video.</p>
+<figure class="comparison"><figcaption>GT / PAVG: gas transport, oblique view</figcaption>
+<img class="motion" src="media/rebuttal/interaction_test682/gt_pavg_world.gif" width="1080" height="580" loading="lazy" alt="GT and PAVG gas trajectories diverge during interaction with a moving solid, shown side by side">
+<p class="fine">Gas: teal; solid: ochre. Fixed world camera and shared scale.</p></figure>
+<figure class="comparison"><figcaption>GT / PAVG: gas transport, front view</figcaption>
+<img class="motion" src="media/rebuttal/interaction_test682/gt_pavg_front.gif" width="1080" height="580" loading="lazy" alt="Front view of the same GT and predicted gas trajectories with solid context">
+<p class="fine">Same saved states and scale; original world coordinates.</p></figure></div>
+<div class="native-links"><a href="media/rebuttal/interaction_test682/three_view_keyframes.png" target="_blank" rel="noopener noreferrer">Three-view keyframes</a><a href="media/rebuttal/interaction_test682/gt_pavg_test_arrays.npz" download>GT + prediction arrays (NPZ)</a><a href="failure-case-manifest.json">Case provenance and definitions</a></div>
 </article>
+<article id="failure/interaction-test648" class="test-failure">
+<span class="origin added">Rebuttal analysis / held-out point-cloud test</span>
+<h3>Gas plume shape diverges during interaction</h3>
+<p>Sample composite_006765.h5. The GT gas expands into a broader curved plume, while the prediction develops a different bend and a more compact spatial distribution. The final gas position-vector RMSE is 1.312 in canonical coordinate units.</p>
+<div class="comparison-grid failure-points">
+<figure class="comparison"><figcaption>GT / PAVG: plume development, oblique view</figcaption>
+<img class="motion" src="media/rebuttal/interaction_test648/gt_pavg_world.gif" width="1080" height="580" loading="lazy" alt="GT and PAVG gas plume development around a solid, showing a different predicted bend and extent">
+<p class="fine">Gas: teal; solid: ochre. Fixed world camera and shared scale.</p></figure>
+<figure class="comparison"><figcaption>GT / PAVG: plume development, front view</figcaption>
+<img class="motion" src="media/rebuttal/interaction_test648/gt_pavg_front.gif" width="1080" height="580" loading="lazy" alt="Front view of the GT and predicted gas plume from the same held-out interaction example">
+<p class="fine">Same saved states and scale; original world coordinates.</p></figure></div>
+<div class="native-links"><a href="media/rebuttal/interaction_test648/three_view_keyframes.png" target="_blank" rel="noopener noreferrer">Three-view keyframes</a><a href="media/rebuttal/interaction_test648/gt_pavg_test_arrays.npz" download>GT + prediction arrays (NPZ)</a></div>
+</article>
+<p class="fine">Both examples use 2,048 gas and 2,048 solid points, with the initial state and 24 predictions at simulation frames 1, 3, ..., 47 (0–1.9599 s under the recorded simulation clock). All points are shown with no alignment or shape correction. GIF timing is rounded to centiseconds, with an 80 ms final-state hold. These selected examples show gas-trajectory limitations during interaction; they do not measure a failure rate or isolate the cause to CPI. They have no corresponding generated RGB videos.</p>
 <div class="failure-copy"><h3>Video appearance</h3><p>Banded dust textures, faint gas motion, and image-boundary effects can occur even when trajectories remain smooth. Image realism, visibility, and trajectory accuracy require separate assessment.</p></div>
 <div class="comparison-grid"><figure class="comparison"><figcaption>Banded dust texture</figcaption>
 <img class="motion" src="previews/media/paper/sandbag_drop/mpact.gif" width="360" height="240" loading="lazy" decoding="async" alt="Banded dust texture animated comparison">
@@ -1642,7 +1655,7 @@
 <section id="protocol" class="subsection"><div class="section-heading"><h2>Protocol and retained files</h2></div>
 <div class="protocol-copy"><h3>Original-paper cohort</h3><p>8 gas-only, 8 solid-only, and 16 solid-gas interaction scenes. The nine video baselines retain their frozen source controls, which are not identical to the updated PAVG and PhysCtrl controls. PhysCtrl is solid-trained, with the declared gas/interaction input adaptation; it is not a gas-trained checkpoint.</p>
 <h3>GIF previews and original media</h3><p>Video GIFs are derived 256-pixel-wide previews, with a limited color palette and source timing rounded to GIF centisecond precision. No motion interpolation is used. Original MP4 publication copies remain unchanged and are available beside each preview. Display playback duration is not a claim about physical rollout duration.</p>
-<h3>Point clouds</h3><p>64 original-paper predictions and 3 additional Physics-IQ predictions retain their original numeric NPZ downloads. Their previews use all saved initial and predicted coordinates, a fixed camera fitted to the full trajectory, and 6 keyframes/s for inspection. Gas is blue and solid is coral. The separate held-out failure case provides matched GT and prediction arrays, with world and rigid-aligned views labeled explicitly. Other video methods do not have corresponding retained 3D predictions.</p>
+<h3>Point clouds</h3><p>64 original-paper predictions and 3 additional Physics-IQ predictions retain their original numeric NPZ downloads. Their previews use all saved initial and predicted coordinates, a fixed camera fitted to the full trajectory, and 6 keyframes/s for inspection. Gas is blue and solid is coral. The two held-out interaction failure cases provide matched GT and predictions in unchanged world coordinates, with gas and solid colored by phase and identical scales across methods. Other video methods do not have corresponding retained 3D predictions.</p>
 <h3>Checkpoint</h3><p>Confirmed PAVG Stage-2 checkpoint at update 60,000. Newly trained unified-model ablations are not substituted into these results.</p><p class="checksum">654439ea5b94bf699128f018cd2fe70d01cf849e1dbdf6d2c030ce3254210a30</p>
 <h3>File provenance</h3><p><a href="asset-manifest.json">Original asset manifest</a> &middot; <a href="gif-manifest.json">GIF and point-viewer manifest</a> &middot; <a href="failure-case-manifest.json">Held-out failure-case manifest</a></p>
 <p>Original MP4 video streams were copied without re-encoding; ancillary metadata, chapters, and audio were omitted in the anonymous publication copy. NPZ downloads are byte-identical to the retained source. This page adds no analytics or visitor counters; hosting-service policies apply separately.</p></div></section>
