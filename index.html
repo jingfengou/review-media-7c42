@@ -1611,10 +1611,22 @@
 <a href="videos/media_diagnostics_v4_gas_double_control.html" target="_blank" rel="noopener noreferrer">Original MP4</a></div></figure></div></details>
 <p class="fine">Mean adjacent-frame flow in the dust region: 0.0175, 0.0170, and 0.9933 pixels/frame, respectively. Optical flow measures image texture change, not material-particle motion.</p></section></section>
 <section id="failures" class="subsection"><div class="section-heading"><h2>Failure cases and scope</h2><span>Original-paper outputs / additional analysis</span></div>
-<div class="comparison-grid four"><figure class="comparison"><figcaption>Rigid shape deformation</figcaption>
-<img class="motion" src="previews/media/paper/scene03a/mpact.gif" width="360" height="240" loading="lazy" decoding="async" alt="Rigid shape deformation animated comparison">
-<div class="caption"><span>49 frames / 8 fps</span>
-<a href="videos/media_paper_scene03a_mpact.html" target="_blank" rel="noopener noreferrer">Original MP4</a></div></figure><figure class="comparison"><figcaption>Banded dust texture</figcaption>
+<article id="failure/rigid-test475" class="test-failure">
+<span class="origin added">Rebuttal analysis / held-out point-cloud test</span>
+<h3>Rigid object flattens after ground contact</h3>
+<p>Sample 32490_020.h5, from the original 700-example trajectory test set. GT preserves the rigid shape, while the PAVG prediction contracts after contact. Final shortest principal-axis scale relative to the initial state: GT 1.000, PAVG 0.398. This is one selected failure, using the original checkpoint and saved predictions.</p>
+<div class="comparison-grid failure-points">
+<figure class="comparison"><figcaption>GT / PAVG: shape preservation</figcaption>
+<img class="motion" src="media/rebuttal/rigid_test475/gt_pavg_shape.gif" width="1080" height="580" loading="lazy" alt="GT keeps its rigid shape while the PAVG test prediction flattens; translation and rotation removed">
+<p class="fine">Translation and rotation removed independently. Identical scale; no shape correction.</p></figure>
+<figure class="comparison"><figcaption>GT / PAVG: original trajectories</figcaption>
+<img class="motion" src="media/rebuttal/rigid_test475/gt_pavg_world.gif" width="1080" height="580" loading="lazy" alt="Ground-truth and PAVG test trajectories side by side in a fixed world view">
+<p class="fine">Fixed world camera and shared scale. Blue: GT; coral: PAVG.</p></figure></div>
+<div class="native-links"><a href="media/rebuttal/rigid_test475/three_view_keyframes.png" target="_blank" rel="noopener noreferrer">Three-view keyframes</a><a href="media/rebuttal/rigid_test475/gt_pavg_test_arrays.npz" download>GT + prediction arrays (NPZ)</a><a href="failure-case-manifest.json">Case provenance and definitions</a></div>
+<p class="fine">2,048 points; initial state and 24 predictions at simulation frames 1, 3, ..., 47 (0–1.9599 s under the retained simulation clock). GIF timing is rounded to centiseconds, with an 80 ms final-state hold. The failure occurs in the trajectory predictor; this test example has no corresponding generated RGB video.</p>
+</article>
+<div class="failure-copy"><h3>Video appearance</h3><p>Banded dust textures, faint gas motion, and image-boundary effects can occur even when trajectories remain smooth. Image realism, visibility, and trajectory accuracy require separate assessment.</p></div>
+<div class="comparison-grid"><figure class="comparison"><figcaption>Banded dust texture</figcaption>
 <img class="motion" src="previews/media/paper/sandbag_drop/mpact.gif" width="360" height="240" loading="lazy" decoding="async" alt="Banded dust texture animated comparison">
 <div class="caption"><span>49 frames / 8 fps</span>
 <a href="videos/media_paper_sandbag_drop_mpact.html" target="_blank" rel="noopener noreferrer">Original MP4</a></div></figure><figure class="comparison"><figcaption>Faint steam / haze</figcaption>
@@ -1624,16 +1636,14 @@
 <img class="motion" src="previews/media/paper/scene07c/mpact.gif" width="360" height="240" loading="lazy" decoding="async" alt="Late motion near image boundary animated comparison">
 <div class="caption"><span>49 frames / 8 fps</span>
 <a href="videos/media_paper_scene07c_mpact.html" target="_blank" rel="noopener noreferrer">Original MP4</a></div></figure></div>
-<div class="failure-copy"><h3>Trajectory geometry</h3><p>The predicted tennis-ball point cloud deforms before video synthesis. Final rigid-fit residual divided by initial RMS radius: 0.495; shortest principal-axis ratio: 0.196. These measure shape change, not error against a ground-truth physical trajectory.</p>
-<a href="#paper/scene03a">Corresponding original scene and point clouds</a>
-<h3>Video appearance</h3><p>Banded dust textures, faint gas motion, and image-boundary effects can occur even when trajectories remain smooth. Image realism, visibility, and trajectory accuracy require separate assessment.</p>
+<div class="failure-copy">
 <h3>Current scope</h3><p>The evidence concerns short-horizon prediction for existing particles with specified phase regions and physical conditions. It does not establish long-rollout stability, strict conservation, strong gas-to-solid feedback, liquid free surfaces, combustion, or continued creation of smoke particles.</p>
 <p>In the additional Physics-IQ example, PAVG often produces thin or nearly static smoke. Baselines may produce larger flames, brightness changes, or thicker plumes than the reference. Empty motion masks do not establish physical accuracy; no aggregate benchmark ranking is claimed.</p></div></section>
 <section id="protocol" class="subsection"><div class="section-heading"><h2>Protocol and retained files</h2></div>
 <div class="protocol-copy"><h3>Original-paper cohort</h3><p>8 gas-only, 8 solid-only, and 16 solid-gas interaction scenes. The nine video baselines retain their frozen source controls, which are not identical to the updated PAVG and PhysCtrl controls. PhysCtrl is solid-trained, with the declared gas/interaction input adaptation; it is not a gas-trained checkpoint.</p>
 <h3>GIF previews and original media</h3><p>Video GIFs are derived 256-pixel-wide previews, with a limited color palette and source timing rounded to GIF centisecond precision. No motion interpolation is used. Original MP4 publication copies remain unchanged and are available beside each preview. Display playback duration is not a claim about physical rollout duration.</p>
-<h3>Point clouds</h3><p>64 original-paper predictions and 3 additional Physics-IQ predictions retain their original numeric NPZ downloads. Previews use all saved initial and predicted coordinates, a fixed camera fitted to the full trajectory, and 6 keyframes/s for inspection. Gas is blue and solid is coral. No shape repair or framewise recentering is applied. Other video methods do not have corresponding retained 3D predictions.</p>
+<h3>Point clouds</h3><p>64 original-paper predictions and 3 additional Physics-IQ predictions retain their original numeric NPZ downloads. Their previews use all saved initial and predicted coordinates, a fixed camera fitted to the full trajectory, and 6 keyframes/s for inspection. Gas is blue and solid is coral. The separate held-out failure case provides matched GT and prediction arrays, with world and rigid-aligned views labeled explicitly. Other video methods do not have corresponding retained 3D predictions.</p>
 <h3>Checkpoint</h3><p>Confirmed PAVG Stage-2 checkpoint at update 60,000. Newly trained unified-model ablations are not substituted into these results.</p><p class="checksum">654439ea5b94bf699128f018cd2fe70d01cf849e1dbdf6d2c030ce3254210a30</p>
-<h3>File provenance</h3><p><a href="asset-manifest.json">Original asset manifest</a> &middot; <a href="gif-manifest.json">GIF and point-viewer manifest</a></p>
+<h3>File provenance</h3><p><a href="asset-manifest.json">Original asset manifest</a> &middot; <a href="gif-manifest.json">GIF and point-viewer manifest</a> &middot; <a href="failure-case-manifest.json">Held-out failure-case manifest</a></p>
 <p>Original MP4 video streams were copied without re-encoding; ancillary metadata, chapters, and audio were omitted in the anonymous publication copy. NPZ downloads are byte-identical to the retained source. This page adds no analytics or visitor counters; hosting-service policies apply separately.</p></div></section>
 </main><footer>Anonymous supplementary material &middot; <a href="#paper">Original paper</a> &middot; <a href="#rebuttal">Rebuttal additions</a></footer></body></html>
